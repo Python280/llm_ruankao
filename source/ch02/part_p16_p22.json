@@ -1,0 +1,195 @@
+[
+ {
+  "page": 16,
+  "title": "习题讲解",
+  "level": 2,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "GPU目前已广泛应用于各行各业，GPU中集成了同时运行在GHz的频率上的成千上万个core，可以高速处理图像数据。最新的GPU峰值性能可高达（ ）以上。"
+   },
+   {
+    "type": "content",
+    "content": "A、100 TFlops"
+   },
+   {
+    "type": "content",
+    "content": "B、50 TFlops"
+   },
+   {
+    "type": "content",
+    "content": "C、10 TFlops"
+   },
+   {
+    "type": "content",
+    "content": "D、1TFlops"
+   }
+  ]
+ },
+ {
+  "page": 17,
+  "title": "嵌入式硬件",
+  "level": 1,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "人工智能芯片"
+   },
+   {
+    "type": "content",
+    "content": "人工智能（Artificial Intelligence，AI）芯片的定义：从广义上讲只要能够运行人工智能算法的芯片都叫作 AI 芯片。但是通常意义上的 AI 芯片指的是针对人工智能算法做了特殊加速设计的芯片，现阶段，这些人工智能算法一般以深度学习算法为主，也可以包括其他机器学习算法。"
+   },
+   {
+    "type": "content",
+    "content": "人工智能芯片四大类（按技术架构分类）："
+   },
+   {
+    "type": "content",
+    "content": "❑ GPU"
+   },
+   {
+    "type": "content",
+    "content": "❑ FPGA（现场可编程门阵列）"
+   },
+   {
+    "type": "content",
+    "content": "❑ ASIC（专用集成电路）"
+   },
+   {
+    "type": "content",
+    "content": "❑ 类脑芯片"
+   }
+  ]
+ },
+ {
+  "page": 18,
+  "title": "嵌入式硬件",
+  "level": 1,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "AI芯片的关键特征："
+   },
+   {
+    "type": "content",
+    "content": "✓ 新型的计算范式：AI 计算既不脱离传统计算，也具有新的计算特质。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 训练和推断：AI 系统通常涉及训练和推断过程。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 大数据处理能力：满足高效能机器学习的数据处理要求。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 数据精度：降低精度的设计。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 可重构的能力：针对特定领域而不针对特定应用的设计，可以通过重新配置，适应新的AI 算法、架构和任务。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 开发工具：AI 芯片需要软件工具链的支持。"
+   }
+  ]
+ },
+ {
+  "page": 19,
+  "title": "习题讲解",
+  "level": 2,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "人工智能技术已成为当前国际科技竞争的核心技术之一，AI芯片是占据人工智能市场的法宝。AI 芯片有别于通常处理器芯片，它应具备四种关键特征。（ ）是AI芯片的关键特点。"
+   },
+   {
+    "type": "content",
+    "content": "A、新型的计算范式、信号处理能力、低精度设计、专用开发工具"
+   },
+   {
+    "type": "content",
+    "content": "B、新型的计算范式、训练和推断、大数据处理能力、可重构的能力"
+   },
+   {
+    "type": "content",
+    "content": "C、训练和推断、大数据处理能力、可定制性、专用开发工具"
+   },
+   {
+    "type": "content",
+    "content": "D、训练和推断、低精度设计、新型的计算范式、图像处理能力"
+   }
+  ]
+ },
+ {
+  "page": 20,
+  "title": "习题讲解",
+  "level": 2,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "AI芯片是当前人工智能技术发展的核心技术，其能力要支持训练和推理，通常，AI芯片的技术架构包括（ ）等三种。"
+   },
+   {
+    "type": "content",
+    "content": "A、GPU、FPGA、ASIC"
+   },
+   {
+    "type": "content",
+    "content": "B、CPU、FPGA、DSP"
+   },
+   {
+    "type": "content",
+    "content": "C、GPU、CPU、ASIC"
+   },
+   {
+    "type": "content",
+    "content": "D、GPU、FPGA、SOC"
+   }
+  ]
+ },
+ {
+  "page": 21,
+  "title": "嵌入式硬件",
+  "level": 1,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "嵌入式微处理器体系结构"
+   },
+   {
+    "type": "table",
+    "content": "| 体系结构分类 | 定义 | 特点 | 典型应用 |\n| 冯·诺依曼结构 | 冯·诺依曼结构也称普林斯顿结构，是一种将程序指令存储器和数据存储器合并在一起的存储器结构。 | 指令与数据存储器合并在一起。<br>指令与数据都通过相同的数据总线传输。 | 一般用于PC处理器，如I3、I5、I7处理器。<br>注：常规计算机属于冯·诺依曼结构 |\n| 哈佛结构 | 哈佛结构是一种并行体系结构，它的主要特点是将程序和数据存储在不同的存储空间中，即程序存储器和数据存储器是两个独立的存储器，每个存储器独立编址、独立访问。 | 指令与数据分开存储，可以并行读取，有较高的数据吞吐率。<br>有4条总线：指令和数据的数据总线与地址总线。 | 一般用于嵌入式系统处理器。<br>注：DSP属于哈佛结构 |"
+   }
+  ]
+ },
+ {
+  "page": 22,
+  "title": "习题讲解",
+  "level": 2,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "目前处理器市场中存在CPU和DSP两种类型处理器，分别用于不同场景，这两种处理器具有不同的体系结构，DSP采用（ ）。"
+   },
+   {
+    "type": "content",
+    "content": "A、冯•诺依曼结构"
+   },
+   {
+    "type": "content",
+    "content": "B、哈佛结构"
+   },
+   {
+    "type": "content",
+    "content": "C、FPGA结构"
+   },
+   {
+    "type": "content",
+    "content": "D、与GPU相同结构"
+   }
+  ]
+ }
+]

@@ -1,0 +1,227 @@
+[
+ {
+  "page": 9,
+  "title": "嵌入式软件开发",
+  "level": 2,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "嵌入式软件设计层面的功耗控制主要可以从以下方面展开："
+   },
+   {
+    "type": "content",
+    "content": "✓ 软硬件协同设计，即软件的设计要与硬件的匹配，考虑硬件因素。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 编译优化，采用低功耗优化的编译技术。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 减少系统的持续运行时间，可从算法角度进行优化。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 用“中断”代替“查询”。"
+   },
+   {
+    "type": "content",
+    "content": "✓ 进行电源的有效管理。"
+   }
+  ]
+ },
+ {
+  "page": 10,
+  "title": "习题讲解",
+  "level": 2,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "嵌入式系统设计一般要考虑低功耗， 软件设计也要考虑低功耗设计，软件低功耗设计一般采用（ ）。"
+   },
+   {
+    "type": "content",
+    "content": "A、 结构优化、编译优化和代码优化"
+   },
+   {
+    "type": "content",
+    "content": "B、 软硬件协同设计、开发过程优化和环境设计优化"
+   },
+   {
+    "type": "content",
+    "content": "C、 轻量级操作系统、算法优化和仿真实验"
+   },
+   {
+    "type": "content",
+    "content": "D、 编译优化技术、软硬件协同设计和算法优化"
+   }
+  ]
+ },
+ {
+  "page": 11,
+  "title": "嵌入式硬件",
+  "level": 1,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "嵌入系统发展历程"
+   },
+   {
+    "type": "content",
+    "content": "嵌入式系统的发展大致经历了五个阶段："
+   },
+   {
+    "type": "content",
+    "content": "➢ 第一阶段：单片微型计算机（SCM）阶段，即单片机时代。"
+   },
+   {
+    "type": "content",
+    "content": "➢ 第二阶段：微控制器（MCU）阶段。"
+   },
+   {
+    "type": "content",
+    "content": "➢ 第三阶段：片上系统（SoC）。"
+   },
+   {
+    "type": "content",
+    "content": "➢ 第四阶段：以Internet为基础的嵌入式系统。"
+   },
+   {
+    "type": "content",
+    "content": "➢ 第五阶段：在智能化、云技术推动下的嵌入式系统。"
+   }
+  ]
+ },
+ {
+  "page": 12,
+  "title": "嵌入式硬件",
+  "level": 1,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "嵌入式微处理器"
+   },
+   {
+    "type": "content",
+    "content": "通常嵌入式处理器需要根据不同的使用场景选择不同类型的处理器，从处理器分类看，大致可分为MPU、MCU、DSP、GPU、SoC："
+   },
+   {
+    "type": "content",
+    "content": "◆ 微处理器（Micro Processor Unit,MPU）：将微处理器装配在专门设计的电路板上，只保留与嵌入式应用有关的母板功能。微处理器一般以某一种微处理内核为核心，每一种衍生产品的处理器内核都是一样的，不同的是存储器和外设的配置及封装。"
+   },
+   {
+    "type": "content",
+    "content": "◆ 微控制器（Micro Control Unit,MCU）：又称单片机。与MPU 相比MCU的最大优点在于单片化，体积大大减小，从而使功耗和成本下降，可靠性提高。"
+   },
+   {
+    "type": "content",
+    "content": "◆ 信号处理器（Digital Signal Processor,DSP）：DSP 处理器对系统结构和指令进行了特殊设计（通常，DSP 采用一种哈佛结构），使其适合于执行 DSP 算法，编译效率较高，指令执行速度也较高。"
+   }
+  ]
+ },
+ {
+  "page": 13,
+  "title": "嵌入式硬件",
+  "level": 1,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "嵌入式微处理器"
+   },
+   {
+    "type": "content",
+    "content": "◆ 图形处理器（Graphics Processing Unit,GPU）："
+   },
+   {
+    "type": "content",
+    "content": "• GPU 是图形处理单元的缩写，是一种可执行3D 图形渲染等图像的半导体芯片（处理器）。"
+   },
+   {
+    "type": "content",
+    "content": "• GPU 可用于个人电脑、工作站、游戏机和一些移动设备上做图像和图形相关运算工作的微处理器。"
+   },
+   {
+    "type": "content",
+    "content": "• 它可减少对 CPU的依赖，并执行部分原本属于 CPU的工作，尤其是在3D图形处理中，GPU 采用了核心技术（如： 硬件T&L、纹理压缩等） 保证了3D快速渲染的能力。"
+   },
+   {
+    "type": "content",
+    "content": "• GPU目前已广泛应用于各行各业，GPU中集成了同时运行在GHz的频率上的成千上万个core，可以高速处理图像数据。最新的GPU峰值性能可高达100 TFlops以上。"
+   }
+  ]
+ },
+ {
+  "page": 14,
+  "title": "嵌入式硬件",
+  "level": 1,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "嵌入式微处理器"
+   },
+   {
+    "type": "content",
+    "content": "◆ 片上系统（System on Chip，SoC）："
+   },
+   {
+    "type": "content",
+    "content": "• 追求产品系统最大包容的集成器件。"
+   },
+   {
+    "type": "content",
+    "content": "• 它是一个产品，是一个有专用目标的集成电路，其中包含完整系统并有嵌入软件的全部内容。"
+   },
+   {
+    "type": "content",
+    "content": "• 同时它又是一种技术，用以实现从确定系统功能开始，到软/硬件划分，并完成设计的整个过程。"
+   },
+   {
+    "type": "content",
+    "content": "• 成功实现了软硬件的无缝结合，直接在微处理器片内嵌入操作系统的代码模块。"
+   },
+   {
+    "type": "content",
+    "content": "• 减小了系统的体积和功耗、提高了可靠性和设计生产效率。"
+   },
+   {
+    "type": "content",
+    "content": "• 狭义角度：信息系统核心的芯片集成，是将系统关键部件集成在一块芯片上；"
+   },
+   {
+    "type": "content",
+    "content": "• 广义角度：SoC是一个微小型系统，如果说中央处理器（CPU）是大脑，那么SoC就是包括大脑、心脏、眼睛和手的系统。"
+   },
+   {
+    "type": "content",
+    "content": "• 国内外学术界一般倾向将SoC定义为将微处理器、模拟IP核、数字IP核和存储器（或片外存储控制接口）集成在单一芯片上，它通常是客户定制的，或是面向特定用途的标准产品。"
+   }
+  ]
+ },
+ {
+  "page": 15,
+  "title": "习题讲解",
+  "level": 2,
+  "nodes": [
+   {
+    "type": "content",
+    "content": "一般说来，SoC称为系统级芯片，也称片上系统，它是一个有专用目标的集成电路产品：以下关于SoC不正确的说法是（ ）。"
+   },
+   {
+    "type": "content",
+    "content": "A、 SoC是一种技术，是以实际的、确定的系统功能开始，到软/硬件划分，并完成设计的整个过程"
+   },
+   {
+    "type": "content",
+    "content": "B、 SoC是一款具有运算能力的处理器芯片，可面向特定用途进行定制的标准产品"
+   },
+   {
+    "type": "content",
+    "content": "C、 SoC是信息系统核心的芯片集成，是将系统关键部件集成在一块芯片上，完成信息系统的核心功能"
+   },
+   {
+    "type": "content",
+    "content": "D、 SoC是将微处理器、模拟IP核、数字IP核和存储器（或片外存储控制接口）集成在单一芯片上，是面向特定用途的标准产品"
+   }
+  ]
+ }
+]
