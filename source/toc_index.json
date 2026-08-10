@@ -1,0 +1,3703 @@
+{
+ "pdf": "D:/2study/软考高级学习记录/26年下-最终章/llm_ruankao/系统架构设计师教程[第二版](可搜索+字体修正+书签修正).pdf",
+ "pages_total": 728,
+ "printed_offset": 15,
+ "calibration": [
+  {
+   "phys": 62,
+   "printed": 47
+  },
+  {
+   "phys": 116,
+   "printed": 101
+  },
+  {
+   "phys": 45,
+   "printed": 30
+  }
+ ],
+ "sections": [
+  {
+   "id": null,
+   "title": "前言",
+   "level": 1,
+   "phys_start": 3,
+   "phys_end": 5
+  },
+  {
+   "id": null,
+   "title": "目录",
+   "level": 1,
+   "phys_start": 6,
+   "phys_end": 15
+  },
+  {
+   "id": null,
+   "title": "上篇",
+   "level": 1,
+   "phys_start": 16,
+   "phys_end": 17
+  },
+  {
+   "id": null,
+   "title": "第1章 绪论",
+   "level": 1,
+   "phys_start": 18,
+   "phys_end": 18
+  },
+  {
+   "id": "1.1",
+   "title": "1.1 系统架构概述",
+   "level": 2,
+   "phys_start": 18,
+   "phys_end": 18
+  },
+  {
+   "id": "1.1.1",
+   "title": "1.1.1 系统架构的定义及发展历程",
+   "level": 3,
+   "phys_start": 19,
+   "phys_end": 23
+  },
+  {
+   "id": "1.1.2",
+   "title": "1.1.2 软件架构的常用分类及建模方法",
+   "level": 3,
+   "phys_start": 24,
+   "phys_end": 27
+  },
+  {
+   "id": "1.1.3",
+   "title": "1.1.3 软件架构的应用场景",
+   "level": 3,
+   "phys_start": 28,
+   "phys_end": 28
+  },
+  {
+   "id": "1.1.4",
+   "title": "1.1.4 软件架构的发展未来",
+   "level": 3,
+   "phys_start": 28,
+   "phys_end": 28
+  },
+  {
+   "id": "1.2",
+   "title": "1.2 系统架构设计师概述",
+   "level": 2,
+   "phys_start": 29,
+   "phys_end": 29
+  },
+  {
+   "id": "1.2.1",
+   "title": "1.2.1 架构设计师的定义、职责和任务",
+   "level": 3,
+   "phys_start": 30,
+   "phys_end": 30
+  },
+  {
+   "id": "1.2.2",
+   "title": "1.2.2 架构设计师应具备的专业素质",
+   "level": 3,
+   "phys_start": 31,
+   "phys_end": 31
+  },
+  {
+   "id": "1.2.3",
+   "title": "1.2.3 架构设计师的知识结构",
+   "level": 3,
+   "phys_start": 32,
+   "phys_end": 32
+  },
+  {
+   "id": "1.3",
+   "title": "1.3 如何成为一名好的系统架构设计师",
+   "level": 2,
+   "phys_start": 33,
+   "phys_end": 33
+  },
+  {
+   "id": "1.3.1",
+   "title": "1.3.1 如何衡量一名优秀架构设计师",
+   "level": 3,
+   "phys_start": 33,
+   "phys_end": 34
+  },
+  {
+   "id": "1.3.2",
+   "title": "1.3.2 从工程师到系统架构设计师的演化",
+   "level": 3,
+   "phys_start": 35,
+   "phys_end": 38
+  },
+  {
+   "id": null,
+   "title": "第2章 计算机系统基础知识",
+   "level": 1,
+   "phys_start": 39,
+   "phys_end": 39
+  },
+  {
+   "id": "2.1",
+   "title": "2.1 计算机系统概述",
+   "level": 2,
+   "phys_start": 39,
+   "phys_end": 39
+  },
+  {
+   "id": "2.2",
+   "title": "2.2 计算机硬件",
+   "level": 2,
+   "phys_start": 40,
+   "phys_end": 40
+  },
+  {
+   "id": "2.2.1",
+   "title": "2.2.1 计算机硬件组成",
+   "level": 3,
+   "phys_start": 40,
+   "phys_end": 40
+  },
+  {
+   "id": "2.2.2",
+   "title": "2.2.2 处理器",
+   "level": 3,
+   "phys_start": 40,
+   "phys_end": 40
+  },
+  {
+   "id": "2.2.3",
+   "title": "2.2.3 存储器",
+   "level": 3,
+   "phys_start": 41,
+   "phys_end": 41
+  },
+  {
+   "id": "2.2.5",
+   "title": "2.2.5 接口",
+   "level": 3,
+   "phys_start": 42,
+   "phys_end": 42
+  },
+  {
+   "id": "2.2.6",
+   "title": "2.2.6 外部设备",
+   "level": 3,
+   "phys_start": 42,
+   "phys_end": 42
+  },
+  {
+   "id": "2.3",
+   "title": "2.3 计算机软件",
+   "level": 2,
+   "phys_start": 43,
+   "phys_end": 43
+  },
+  {
+   "id": "2.3.1",
+   "title": "2.3.1 计算机软件概述",
+   "level": 3,
+   "phys_start": 43,
+   "phys_end": 43
+  },
+  {
+   "id": "2.3.2",
+   "title": "2.3.2 操作系统",
+   "level": 3,
+   "phys_start": 43,
+   "phys_end": 46
+  },
+  {
+   "id": "2.3.3",
+   "title": "2.3.3 数据库",
+   "level": 3,
+   "phys_start": 47,
+   "phys_end": 51
+  },
+  {
+   "id": "2.3.4",
+   "title": "2.3.4 文件系统",
+   "level": 3,
+   "phys_start": 52,
+   "phys_end": 55
+  },
+  {
+   "id": "2.3.5",
+   "title": "2.3.5 网络协议",
+   "level": 3,
+   "phys_start": 56,
+   "phys_end": 56
+  },
+  {
+   "id": "2.3.6",
+   "title": "2.3.6 中间件",
+   "level": 3,
+   "phys_start": 56,
+   "phys_end": 57
+  },
+  {
+   "id": "2.3.7",
+   "title": "2.3.7 软件构件",
+   "level": 3,
+   "phys_start": 58,
+   "phys_end": 60
+  },
+  {
+   "id": "2.3.8",
+   "title": "2.3.8 应用软件",
+   "level": 3,
+   "phys_start": 61,
+   "phys_end": 61
+  },
+  {
+   "id": "2.4",
+   "title": "2.4 嵌入式系统及软件",
+   "level": 2,
+   "phys_start": 62,
+   "phys_end": 62
+  },
+  {
+   "id": "2.4.1",
+   "title": "2.4.1 嵌入式系统的组成及特点",
+   "level": 3,
+   "phys_start": 62,
+   "phys_end": 63
+  },
+  {
+   "id": "2.4.2",
+   "title": "2.4.2 嵌入式系统的分类",
+   "level": 3,
+   "phys_start": 64,
+   "phys_end": 64
+  },
+  {
+   "id": "2.4.3",
+   "title": "2.4.3 嵌入式软件的组成及特点",
+   "level": 3,
+   "phys_start": 64,
+   "phys_end": 66
+  },
+  {
+   "id": "2.4.4",
+   "title": "2.4.4 安全攸关软件的安全性设计",
+   "level": 3,
+   "phys_start": 67,
+   "phys_end": 70
+  },
+  {
+   "id": "2.5",
+   "title": "2.5 计算机网络",
+   "level": 2,
+   "phys_start": 71,
+   "phys_end": 71
+  },
+  {
+   "id": "2.5.1",
+   "title": "2.5.1 网络的基本概念",
+   "level": 3,
+   "phys_start": 71,
+   "phys_end": 73
+  },
+  {
+   "id": "2.5.2",
+   "title": "2.5.2 通信技术",
+   "level": 3,
+   "phys_start": 74,
+   "phys_end": 77
+  },
+  {
+   "id": "2.5.3",
+   "title": "2.5.3 网络技术",
+   "level": 3,
+   "phys_start": 78,
+   "phys_end": 84
+  },
+  {
+   "id": "2.5.4",
+   "title": "2.5.4 组网技术",
+   "level": 3,
+   "phys_start": 85,
+   "phys_end": 89
+  },
+  {
+   "id": "2.5.5",
+   "title": "2.5.5 网络工程",
+   "level": 3,
+   "phys_start": 90,
+   "phys_end": 90
+  },
+  {
+   "id": "2.6",
+   "title": "2.6 计算机语言",
+   "level": 2,
+   "phys_start": 90,
+   "phys_end": 90
+  },
+  {
+   "id": "2.6.1",
+   "title": "2.6.1 计算机语言的组成",
+   "level": 3,
+   "phys_start": 90,
+   "phys_end": 90
+  },
+  {
+   "id": "2.6.2",
+   "title": "2.6.2 计算机语言的分类",
+   "level": 3,
+   "phys_start": 91,
+   "phys_end": 101
+  },
+  {
+   "id": "2.7",
+   "title": "2.7 多媒体 .",
+   "level": 2,
+   "phys_start": 102,
+   "phys_end": 102
+  },
+  {
+   "id": "2.7.1",
+   "title": "2.7.1 多媒体概述",
+   "level": 3,
+   "phys_start": 102,
+   "phys_end": 102
+  },
+  {
+   "id": "2.7.2",
+   "title": "2.7.2 多媒体系统的关键技术",
+   "level": 3,
+   "phys_start": 103,
+   "phys_end": 105
+  },
+  {
+   "id": "2.8",
+   "title": "2.8 系统工程",
+   "level": 2,
+   "phys_start": 106,
+   "phys_end": 106
+  },
+  {
+   "id": "2.8.1",
+   "title": "2.8.1 系统工程概述",
+   "level": 3,
+   "phys_start": 106,
+   "phys_end": 107
+  },
+  {
+   "id": "2.8.2",
+   "title": "2.8.2 系统工程方法",
+   "level": 3,
+   "phys_start": 108,
+   "phys_end": 111
+  },
+  {
+   "id": "2.8.3",
+   "title": "2.8.3 系统工程的生命周期",
+   "level": 3,
+   "phys_start": 112,
+   "phys_end": 114
+  },
+  {
+   "id": "2.8.4",
+   "title": "2.8.4 基于模型的系统工程",
+   "level": 3,
+   "phys_start": 115,
+   "phys_end": 115
+  },
+  {
+   "id": "2.9",
+   "title": "2.9 系统性能",
+   "level": 2,
+   "phys_start": 116,
+   "phys_end": 116
+  },
+  {
+   "id": "2.9.1",
+   "title": "2.9.1 性能指标",
+   "level": 3,
+   "phys_start": 116,
+   "phys_end": 116
+  },
+  {
+   "id": "2.9.2",
+   "title": "2.9.2 性能计算",
+   "level": 3,
+   "phys_start": 117,
+   "phys_end": 117
+  },
+  {
+   "id": "2.9.3",
+   "title": "2.9.3 性能设计 设计",
+   "level": 3,
+   "phys_start": 117,
+   "phys_end": 117
+  },
+  {
+   "id": "2.9.4",
+   "title": "2.9.4 性能评估",
+   "level": 3,
+   "phys_start": 118,
+   "phys_end": 119
+  },
+  {
+   "id": null,
+   "title": "第3章 信息系统基础知识",
+   "level": 1,
+   "phys_start": 120,
+   "phys_end": 120
+  },
+  {
+   "id": "3.1",
+   "title": "3.1 信息系统概述",
+   "level": 2,
+   "phys_start": 120,
+   "phys_end": 120
+  },
+  {
+   "id": "3.1.1",
+   "title": "3.1.1 信息系统的定义",
+   "level": 3,
+   "phys_start": 120,
+   "phys_end": 120
+  },
+  {
+   "id": "3.1.2",
+   "title": "3.1.2 信息系统的发展",
+   "level": 3,
+   "phys_start": 121,
+   "phys_end": 121
+  },
+  {
+   "id": "3.1.3",
+   "title": "3.1.3 信息系统的分类",
+   "level": 3,
+   "phys_start": 121,
+   "phys_end": 123
+  },
+  {
+   "id": "3.1.4",
+   "title": "3.1.4 信息系统的生命周期",
+   "level": 3,
+   "phys_start": 124,
+   "phys_end": 124
+  },
+  {
+   "id": "3.1.5",
+   "title": "3.1.5 信息系统建设原则",
+   "level": 3,
+   "phys_start": 125,
+   "phys_end": 126
+  },
+  {
+   "id": "3.1.6",
+   "title": "3.1.6 信息系统开发方法",
+   "level": 3,
+   "phys_start": 127,
+   "phys_end": 128
+  },
+  {
+   "id": "3.2",
+   "title": "3.2 业务处理系统（TPS）",
+   "level": 2,
+   "phys_start": 129,
+   "phys_end": 129
+  },
+  {
+   "id": "3.2.1",
+   "title": "3.2.1 业务处理系统的概念",
+   "level": 3,
+   "phys_start": 129,
+   "phys_end": 129
+  },
+  {
+   "id": "3.2.2",
+   "title": "3.2.2 业务处理系统的功能",
+   "level": 3,
+   "phys_start": 130,
+   "phys_end": 132
+  },
+  {
+   "id": "3.2.3",
+   "title": "3.2.3 业务处理系统的特点",
+   "level": 3,
+   "phys_start": 133,
+   "phys_end": 133
+  },
+  {
+   "id": "3.3",
+   "title": "3.3 管理信息系统（MIS）",
+   "level": 2,
+   "phys_start": 134,
+   "phys_end": 134
+  },
+  {
+   "id": "3.3.1",
+   "title": "3.3.1 管理信息系统的概念",
+   "level": 3,
+   "phys_start": 134,
+   "phys_end": 134
+  },
+  {
+   "id": "3.3.2",
+   "title": "3.3.2 管理信息系统的功能",
+   "level": 3,
+   "phys_start": 135,
+   "phys_end": 135
+  },
+  {
+   "id": "3.3.3",
+   "title": "3.3.3 管理信息系统的组成",
+   "level": 3,
+   "phys_start": 136,
+   "phys_end": 137
+  },
+  {
+   "id": "3.4",
+   "title": "3.4 决策支持系统（DSS）",
+   "level": 2,
+   "phys_start": 138,
+   "phys_end": 138
+  },
+  {
+   "id": "3.4.1",
+   "title": "3.4.1 决策支持系统的概念",
+   "level": 3,
+   "phys_start": 138,
+   "phys_end": 139
+  },
+  {
+   "id": "3.4.2",
+   "title": "3.4.2 决策支持系统的功能",
+   "level": 3,
+   "phys_start": 140,
+   "phys_end": 140
+  },
+  {
+   "id": "3.4.3",
+   "title": "3.4.3 决策支持系统的特点",
+   "level": 3,
+   "phys_start": 141,
+   "phys_end": 141
+  },
+  {
+   "id": "3.4.4",
+   "title": "3.4.4 决策支持系统的组成",
+   "level": 3,
+   "phys_start": 141,
+   "phys_end": 142
+  },
+  {
+   "id": "3.5",
+   "title": "3.5 专家系统（ES）",
+   "level": 2,
+   "phys_start": 143,
+   "phys_end": 143
+  },
+  {
+   "id": "3.5.1",
+   "title": "3.5.1 专家系统的概念",
+   "level": 3,
+   "phys_start": 143,
+   "phys_end": 143
+  },
+  {
+   "id": "3.5.2",
+   "title": "3.5.2 专家系统的特点",
+   "level": 3,
+   "phys_start": 144,
+   "phys_end": 144
+  },
+  {
+   "id": "3.5.3",
+   "title": "3.5.3 专家系统的组成",
+   "level": 3,
+   "phys_start": 145,
+   "phys_end": 147
+  },
+  {
+   "id": "3.6",
+   "title": "3.6 办公自动化系统（OAS）",
+   "level": 2,
+   "phys_start": 148,
+   "phys_end": 148
+  },
+  {
+   "id": "3.6.1",
+   "title": "3.6.1 办公自动化系统的概念",
+   "level": 3,
+   "phys_start": 148,
+   "phys_end": 148
+  },
+  {
+   "id": "3.6.2",
+   "title": "3.6.2 办公自动化系统的功能",
+   "level": 3,
+   "phys_start": 149,
+   "phys_end": 149
+  },
+  {
+   "id": "3.6.3",
+   "title": "3.6.3 办公自动化系统的组成",
+   "level": 3,
+   "phys_start": 150,
+   "phys_end": 150
+  },
+  {
+   "id": "3.7",
+   "title": "3.7 企业资源规划（ERP）",
+   "level": 2,
+   "phys_start": 151,
+   "phys_end": 151
+  },
+  {
+   "id": "3.7.1",
+   "title": "3.7.1 企业资源规划的概念",
+   "level": 3,
+   "phys_start": 151,
+   "phys_end": 151
+  },
+  {
+   "id": "3.7.2",
+   "title": "3.7.2 企业资源规划的结构",
+   "level": 3,
+   "phys_start": 151,
+   "phys_end": 153
+  },
+  {
+   "id": "3.7.3",
+   "title": "3.7.3 企业资源规划的功能",
+   "level": 3,
+   "phys_start": 154,
+   "phys_end": 154
+  },
+  {
+   "id": "3.8",
+   "title": "3.8 典型信息系统架构模型",
+   "level": 2,
+   "phys_start": 154,
+   "phys_end": 154
+  },
+  {
+   "id": "3.8.1",
+   "title": "3.8.1 政府信息化与电子政务",
+   "level": 3,
+   "phys_start": 154,
+   "phys_end": 156
+  },
+  {
+   "id": "3.8.2",
+   "title": "3.8.2 企业信息化与电子商务",
+   "level": 3,
+   "phys_start": 157,
+   "phys_end": 159
+  },
+  {
+   "id": null,
+   "title": "第4章 信息安全技术基础知识",
+   "level": 1,
+   "phys_start": 160,
+   "phys_end": 160
+  },
+  {
+   "id": "4.1",
+   "title": "4.1 信息安全基础知识",
+   "level": 2,
+   "phys_start": 160,
+   "phys_end": 160
+  },
+  {
+   "id": "4.1.1",
+   "title": "4.1.1 信息安全的概念",
+   "level": 3,
+   "phys_start": 160,
+   "phys_end": 160
+  },
+  {
+   "id": "4.1.2",
+   "title": "4.1.2 信息存储安全",
+   "level": 3,
+   "phys_start": 161,
+   "phys_end": 161
+  },
+  {
+   "id": "4.1.3",
+   "title": "4.1.3 网络安全",
+   "level": 3,
+   "phys_start": 162,
+   "phys_end": 162
+  },
+  {
+   "id": "4.2",
+   "title": "4.2 信息系统安全的作用与意义",
+   "level": 2,
+   "phys_start": 163,
+   "phys_end": 163
+  },
+  {
+   "id": "4.3",
+   "title": "4.3 信息安全系统的组成框架",
+   "level": 2,
+   "phys_start": 164,
+   "phys_end": 164
+  },
+  {
+   "id": "4.3.1",
+   "title": "4.3.1 技术体系",
+   "level": 3,
+   "phys_start": 164,
+   "phys_end": 164
+  },
+  {
+   "id": "4.3.2",
+   "title": "4.3.2 组织机构体系",
+   "level": 3,
+   "phys_start": 165,
+   "phys_end": 165
+  },
+  {
+   "id": "4.3.3",
+   "title": "4.3.3 管理体系",
+   "level": 3,
+   "phys_start": 165,
+   "phys_end": 165
+  },
+  {
+   "id": "4.4",
+   "title": "4.4 信息加解密技术",
+   "level": 2,
+   "phys_start": 165,
+   "phys_end": 165
+  },
+  {
+   "id": "4.4.1",
+   "title": "4.4.1 数据加密",
+   "level": 3,
+   "phys_start": 165,
+   "phys_end": 165
+  },
+  {
+   "id": "4.4.2",
+   "title": "4.4.2 对称密钥加密算法",
+   "level": 3,
+   "phys_start": 166,
+   "phys_end": 166
+  },
+  {
+   "id": "4.4.3",
+   "title": "4.4.3 非对称密钥加密算法",
+   "level": 3,
+   "phys_start": 167,
+   "phys_end": 167
+  },
+  {
+   "id": "4.5",
+   "title": "4.5 密钥管理技术",
+   "level": 2,
+   "phys_start": 168,
+   "phys_end": 168
+  },
+  {
+   "id": "4.5.1",
+   "title": "4.5.1 对称密钥的分配与管理",
+   "level": 3,
+   "phys_start": 168,
+   "phys_end": 169
+  },
+  {
+   "id": "4.5.2",
+   "title": "4.5.2 公钥加密体制的密钥管理",
+   "level": 3,
+   "phys_start": 170,
+   "phys_end": 170
+  },
+  {
+   "id": "4.5.3",
+   "title": "4.5.3 公钥加密分配单钥密码体制的密钥",
+   "level": 3,
+   "phys_start": 170,
+   "phys_end": 170
+  },
+  {
+   "id": "4.6",
+   "title": "4.6 访问控制及数字签名技术",
+   "level": 2,
+   "phys_start": 171,
+   "phys_end": 171
+  },
+  {
+   "id": "4.6.1",
+   "title": "4.6.1 访问控制技术",
+   "level": 3,
+   "phys_start": 171,
+   "phys_end": 172
+  },
+  {
+   "id": "4.6.2",
+   "title": "4.6.2 数字签名",
+   "level": 3,
+   "phys_start": 173,
+   "phys_end": 174
+  },
+  {
+   "id": "4.7",
+   "title": "4.7 信息安全的抗攻击技术",
+   "level": 2,
+   "phys_start": 175,
+   "phys_end": 175
+  },
+  {
+   "id": "4.7.1",
+   "title": "4.7.1 密钥的选择",
+   "level": 3,
+   "phys_start": 175,
+   "phys_end": 175
+  },
+  {
+   "id": "4.7.2",
+   "title": "4.7.2 拒绝服务攻击与防御",
+   "level": 3,
+   "phys_start": 176,
+   "phys_end": 177
+  },
+  {
+   "id": "4.7.3",
+   "title": "4.7.3 欺骗攻击与防御",
+   "level": 3,
+   "phys_start": 178,
+   "phys_end": 179
+  },
+  {
+   "id": "4.7.4",
+   "title": "4.7.4 端口扫描",
+   "level": 3,
+   "phys_start": 180,
+   "phys_end": 181
+  },
+  {
+   "id": "4.7.5",
+   "title": "4.7.5 强化TCP/P堆栈以抵御拒绝服务攻击",
+   "level": 3,
+   "phys_start": 182,
+   "phys_end": 182
+  },
+  {
+   "id": "4.7.6",
+   "title": "4.7.6 系统漏洞扫描",
+   "level": 3,
+   "phys_start": 183,
+   "phys_end": 184
+  },
+  {
+   "id": "4.8",
+   "title": "4.8 信息安全的保障体系与评估方法",
+   "level": 2,
+   "phys_start": 185,
+   "phys_end": 185
+  },
+  {
+   "id": "4.8.1",
+   "title": "4.8.1 计算机信息系统安全保护等级",
+   "level": 3,
+   "phys_start": 185,
+   "phys_end": 185
+  },
+  {
+   "id": "4.8.2",
+   "title": "4.8.2 安全风险管理",
+   "level": 3,
+   "phys_start": 185,
+   "phys_end": 189
+  },
+  {
+   "id": null,
+   "title": "第5章 软件工程基础知识",
+   "level": 1,
+   "phys_start": 190,
+   "phys_end": 190
+  },
+  {
+   "id": "5.1",
+   "title": "5.1 软件工程",
+   "level": 2,
+   "phys_start": 190,
+   "phys_end": 190
+  },
+  {
+   "id": "5.1.1",
+   "title": "5.1.1 软件工程定义",
+   "level": 3,
+   "phys_start": 190,
+   "phys_end": 190
+  },
+  {
+   "id": "5.1.2",
+   "title": "5.1.2 软件过程模型",
+   "level": 3,
+   "phys_start": 191,
+   "phys_end": 193
+  },
+  {
+   "id": "5.1.3",
+   "title": "5.1.3 敏捷模型",
+   "level": 3,
+   "phys_start": 194,
+   "phys_end": 196
+  },
+  {
+   "id": "5.1.4",
+   "title": "5.1.4 统一过程模型（RUP）",
+   "level": 3,
+   "phys_start": 197,
+   "phys_end": 198
+  },
+  {
+   "id": "5.1.5",
+   "title": "5.1.5 软件能力成熟度模型",
+   "level": 3,
+   "phys_start": 199,
+   "phys_end": 199
+  },
+  {
+   "id": "5.2",
+   "title": "5.2 需求工程",
+   "level": 2,
+   "phys_start": 200,
+   "phys_end": 201
+  },
+  {
+   "id": "5.2.1",
+   "title": "5.2.1 需求获取",
+   "level": 3,
+   "phys_start": 202,
+   "phys_end": 203
+  },
+  {
+   "id": "5.2.2",
+   "title": "5.2.2 需求变更",
+   "level": 3,
+   "phys_start": 204,
+   "phys_end": 206
+  },
+  {
+   "id": "5.2.3",
+   "title": "5.2.3 需求追踪",
+   "level": 3,
+   "phys_start": 207,
+   "phys_end": 207
+  },
+  {
+   "id": "5.3",
+   "title": "5.3 系统分析与设计",
+   "level": 2,
+   "phys_start": 207,
+   "phys_end": 207
+  },
+  {
+   "id": "5.3.1",
+   "title": "5.3.1 结构化方法",
+   "level": 3,
+   "phys_start": 207,
+   "phys_end": 214
+  },
+  {
+   "id": "5.3.2",
+   "title": "5.3.2 面向对象方法",
+   "level": 3,
+   "phys_start": 215,
+   "phys_end": 219
+  },
+  {
+   "id": "5.4",
+   "title": "5.4 软件测试",
+   "level": 2,
+   "phys_start": 220,
+   "phys_end": 220
+  },
+  {
+   "id": "5.4.1",
+   "title": "5.4.1 测试方法",
+   "level": 3,
+   "phys_start": 220,
+   "phys_end": 220
+  },
+  {
+   "id": "5.4.2",
+   "title": "5.4.2 测试阶段",
+   "level": 3,
+   "phys_start": 221,
+   "phys_end": 222
+  },
+  {
+   "id": "5.5",
+   "title": "5.5 净室软件工程",
+   "level": 2,
+   "phys_start": 223,
+   "phys_end": 223
+  },
+  {
+   "id": "5.5.1",
+   "title": "5.5.1 理论基础",
+   "level": 3,
+   "phys_start": 223,
+   "phys_end": 223
+  },
+  {
+   "id": "5.5.2",
+   "title": "5.5.2 技术手段",
+   "level": 3,
+   "phys_start": 224,
+   "phys_end": 224
+  },
+  {
+   "id": "5.5.3",
+   "title": "5.5.3 应用与缺点",
+   "level": 3,
+   "phys_start": 224,
+   "phys_end": 224
+  },
+  {
+   "id": "5.6",
+   "title": "5.6 基于构件的软件工程",
+   "level": 2,
+   "phys_start": 225,
+   "phys_end": 225
+  },
+  {
+   "id": "5.6.1",
+   "title": "5.6.1 构件和构件模型",
+   "level": 3,
+   "phys_start": 225,
+   "phys_end": 225
+  },
+  {
+   "id": "5.6.2",
+   "title": "5.6.2 CBSE过程",
+   "level": 3,
+   "phys_start": 226,
+   "phys_end": 226
+  },
+  {
+   "id": "5.6.3",
+   "title": "5.6.3 构件组装",
+   "level": 3,
+   "phys_start": 227,
+   "phys_end": 227
+  },
+  {
+   "id": "5.7",
+   "title": "5.7 软件项目管理",
+   "level": 2,
+   "phys_start": 228,
+   "phys_end": 228
+  },
+  {
+   "id": "5.7.1",
+   "title": "5.7.1 项目管理概述",
+   "level": 3,
+   "phys_start": 228,
+   "phys_end": 228
+  },
+  {
+   "id": "5.7.2",
+   "title": "5.7.2 软件进度管理",
+   "level": 3,
+   "phys_start": 228,
+   "phys_end": 229
+  },
+  {
+   "id": "5.7.3",
+   "title": "5.7.3 软件配置管理",
+   "level": 3,
+   "phys_start": 230,
+   "phys_end": 230
+  },
+  {
+   "id": "5.7.4",
+   "title": "5.7.4 软件质量管理",
+   "level": 3,
+   "phys_start": 230,
+   "phys_end": 231
+  },
+  {
+   "id": "5.7.5",
+   "title": "5.7.5 软件风险管理",
+   "level": 3,
+   "phys_start": 232,
+   "phys_end": 232
+  },
+  {
+   "id": null,
+   "title": "第6章 数据库设计基础知识",
+   "level": 1,
+   "phys_start": 233,
+   "phys_end": 233
+  },
+  {
+   "id": "6.1",
+   "title": "6.1 数据库基本概念",
+   "level": 2,
+   "phys_start": 233,
+   "phys_end": 233
+  },
+  {
+   "id": "6.1.1",
+   "title": "6.1.1 数据库技术的发展",
+   "level": 3,
+   "phys_start": 233,
+   "phys_end": 234
+  },
+  {
+   "id": "6.1.2",
+   "title": "6.1.2 数据模型",
+   "level": 3,
+   "phys_start": 235,
+   "phys_end": 235
+  },
+  {
+   "id": "6.1.3",
+   "title": "6.1.3 数据库管理系统",
+   "level": 3,
+   "phys_start": 236,
+   "phys_end": 237
+  },
+  {
+   "id": "6.1.4",
+   "title": "6.1.4 数据库三级模式",
+   "level": 3,
+   "phys_start": 238,
+   "phys_end": 238
+  },
+  {
+   "id": "6.2",
+   "title": "6.2 关系数据库",
+   "level": 2,
+   "phys_start": 239,
+   "phys_end": 239
+  },
+  {
+   "id": "6.2.1",
+   "title": "6.2.1 关系数据库基本概念",
+   "level": 3,
+   "phys_start": 239,
+   "phys_end": 241
+  },
+  {
+   "id": "6.2.2",
+   "title": "6.2.2 关系运算",
+   "level": 3,
+   "phys_start": 242,
+   "phys_end": 245
+  },
+  {
+   "id": "6.2.3",
+   "title": "6.2.3 关系数据库设计基本理论",
+   "level": 3,
+   "phys_start": 246,
+   "phys_end": 248
+  },
+  {
+   "id": "6.3",
+   "title": "6.3 数据库设计",
+   "level": 2,
+   "phys_start": 249,
+   "phys_end": 249
+  },
+  {
+   "id": "6.3.1",
+   "title": "6.3.1 数据库设计的基本步骤",
+   "level": 3,
+   "phys_start": 249,
+   "phys_end": 249
+  },
+  {
+   "id": "6.3.2",
+   "title": "6.3.2 数据需求分析",
+   "level": 3,
+   "phys_start": 250,
+   "phys_end": 250
+  },
+  {
+   "id": "6.3.3",
+   "title": "6.3.3 概念结构设计",
+   "level": 3,
+   "phys_start": 250,
+   "phys_end": 251
+  },
+  {
+   "id": "6.3.4",
+   "title": "6.3.4 逻辑结构设计",
+   "level": 3,
+   "phys_start": 252,
+   "phys_end": 253
+  },
+  {
+   "id": "6.3.5",
+   "title": "6.3.5 物理设计",
+   "level": 3,
+   "phys_start": 254,
+   "phys_end": 255
+  },
+  {
+   "id": "6.3.6",
+   "title": "6.3.6 数据库实施",
+   "level": 3,
+   "phys_start": 256,
+   "phys_end": 256
+  },
+  {
+   "id": "6.3.7",
+   "title": "6.3.7 数据库运行维护",
+   "level": 3,
+   "phys_start": 257,
+   "phys_end": 257
+  },
+  {
+   "id": "6.4",
+   "title": "6.4 应用程序与数据库的交互",
+   "level": 2,
+   "phys_start": 258,
+   "phys_end": 258
+  },
+  {
+   "id": "6.4.1",
+   "title": "6.4.1 库函数级别访问接口",
+   "level": 3,
+   "phys_start": 258,
+   "phys_end": 258
+  },
+  {
+   "id": "6.4.2",
+   "title": "6.4.2 嵌入SQL访问接口",
+   "level": 3,
+   "phys_start": 258,
+   "phys_end": 258
+  },
+  {
+   "id": "6.4.3",
+   "title": "6.4.3 通用数据接口标准",
+   "level": 3,
+   "phys_start": 259,
+   "phys_end": 259
+  },
+  {
+   "id": "6.4.4",
+   "title": "6.4.4 ORM访问接口",
+   "level": 3,
+   "phys_start": 260,
+   "phys_end": 260
+  },
+  {
+   "id": "6.5",
+   "title": "6.5 NoSQL 数据库",
+   "level": 2,
+   "phys_start": 261,
+   "phys_end": 261
+  },
+  {
+   "id": "6.5.1",
+   "title": "6.5.1 分类与特点",
+   "level": 3,
+   "phys_start": 261,
+   "phys_end": 261
+  },
+  {
+   "id": "6.5.2",
+   "title": "6.5.2 体系框架",
+   "level": 3,
+   "phys_start": 262,
+   "phys_end": 262
+  },
+  {
+   "id": null,
+   "title": "第7章 系统架构设计基础知识",
+   "level": 1,
+   "phys_start": 263,
+   "phys_end": 263
+  },
+  {
+   "id": "7.1",
+   "title": "7.1 软件架构概念",
+   "level": 2,
+   "phys_start": 263,
+   "phys_end": 263
+  },
+  {
+   "id": "7.1.1",
+   "title": "7.1.1 软件架构的定义",
+   "level": 3,
+   "phys_start": 263,
+   "phys_end": 263
+  },
+  {
+   "id": "7.1.2",
+   "title": "7.1.2 软件架构设计与生命周期",
+   "level": 3,
+   "phys_start": 263,
+   "phys_end": 266
+  },
+  {
+   "id": "7.1.3",
+   "title": "7.1.3 软件架构的重要性",
+   "level": 3,
+   "phys_start": 267,
+   "phys_end": 268
+  },
+  {
+   "id": "7.2",
+   "title": "7.2 基于架构的软件开发方法",
+   "level": 2,
+   "phys_start": 269,
+   "phys_end": 269
+  },
+  {
+   "id": "7.2.1",
+   "title": "7.2.1 体系结构的设计方法概述",
+   "level": 3,
+   "phys_start": 269,
+   "phys_end": 269
+  },
+  {
+   "id": "7.2.2",
+   "title": "7.2.2 概念与术语",
+   "level": 3,
+   "phys_start": 269,
+   "phys_end": 269
+  },
+  {
+   "id": "7.2.3",
+   "title": "7.2.3 基于体系结构的开发模型",
+   "level": 3,
+   "phys_start": 270,
+   "phys_end": 270
+  },
+  {
+   "id": "7.2.4",
+   "title": "7.2.4 体系结构需求",
+   "level": 3,
+   "phys_start": 270,
+   "phys_end": 270
+  },
+  {
+   "id": "7.2.5",
+   "title": "7.2.5 体系结构设计",
+   "level": 3,
+   "phys_start": 271,
+   "phys_end": 271
+  },
+  {
+   "id": "7.2.6",
+   "title": "7.2.6 体系结构文档化",
+   "level": 3,
+   "phys_start": 272,
+   "phys_end": 272
+  },
+  {
+   "id": "7.2.7",
+   "title": "7.2.7 体系结构复审",
+   "level": 3,
+   "phys_start": 272,
+   "phys_end": 272
+  },
+  {
+   "id": "7.2.8",
+   "title": "7.2.8 体系结构实现",
+   "level": 3,
+   "phys_start": 273,
+   "phys_end": 273
+  },
+  {
+   "id": "7.2.9",
+   "title": "7.2.9 体系结构的演化",
+   "level": 3,
+   "phys_start": 273,
+   "phys_end": 273
+  },
+  {
+   "id": "7.3",
+   "title": "7.3 软件架构风格",
+   "level": 2,
+   "phys_start": 274,
+   "phys_end": 274
+  },
+  {
+   "id": "7.3.1",
+   "title": "7.3.1 软件架构风格概述",
+   "level": 3,
+   "phys_start": 274,
+   "phys_end": 274
+  },
+  {
+   "id": "7.3.2",
+   "title": "7.3.2 数据流体系结构风格",
+   "level": 3,
+   "phys_start": 274,
+   "phys_end": 274
+  },
+  {
+   "id": "7.3.3",
+   "title": "7.3.3 调用/返回体系结构风格",
+   "level": 3,
+   "phys_start": 275,
+   "phys_end": 276
+  },
+  {
+   "id": "7.3.4",
+   "title": "7.3.4 以数据为中心的体系结构风格",
+   "level": 3,
+   "phys_start": 277,
+   "phys_end": 277
+  },
+  {
+   "id": "7.3.5",
+   "title": "7.3.5 虚拟机体系结构风格",
+   "level": 3,
+   "phys_start": 278,
+   "phys_end": 278
+  },
+  {
+   "id": "7.3.6",
+   "title": "7.3.6 独立构件体系结构风格",
+   "level": 3,
+   "phys_start": 279,
+   "phys_end": 279
+  },
+  {
+   "id": "7.4",
+   "title": "7.4 软件架构复用",
+   "level": 2,
+   "phys_start": 280,
+   "phys_end": 280
+  },
+  {
+   "id": "7.4.1",
+   "title": "7.4.1 软件架构复用的定义及分类",
+   "level": 3,
+   "phys_start": 280,
+   "phys_end": 280
+  },
+  {
+   "id": "7.4.2",
+   "title": "7.4.2 软件架构复用的原因",
+   "level": 3,
+   "phys_start": 280,
+   "phys_end": 280
+  },
+  {
+   "id": "7.4.3",
+   "title": "7.4.3 软件架构复用的对象及形式",
+   "level": 3,
+   "phys_start": 280,
+   "phys_end": 280
+  },
+  {
+   "id": "7.4.4",
+   "title": "7.4.4 软件架构复用的基本过程",
+   "level": 3,
+   "phys_start": 281,
+   "phys_end": 281
+  },
+  {
+   "id": "7.5",
+   "title": "7.5 特定领域软件体系结构",
+   "level": 2,
+   "phys_start": 282,
+   "phys_end": 282
+  },
+  {
+   "id": "7.5.1",
+   "title": "7.5.1 DSSA的定义",
+   "level": 3,
+   "phys_start": 282,
+   "phys_end": 282
+  },
+  {
+   "id": "7.5.2",
+   "title": "7.5.2 DSSA的基本活动",
+   "level": 3,
+   "phys_start": 283,
+   "phys_end": 283
+  },
+  {
+   "id": "7.5.3",
+   "title": "7.5.3 参与DSSA的人员",
+   "level": 3,
+   "phys_start": 284,
+   "phys_end": 284
+  },
+  {
+   "id": "7.5.4",
+   "title": "7.5.4 DSSA的建立过程",
+   "level": 3,
+   "phys_start": 284,
+   "phys_end": 285
+  },
+  {
+   "id": null,
+   "title": "第8章 系统质量属性与架构评估",
+   "level": 1,
+   "phys_start": 286,
+   "phys_end": 286
+  },
+  {
+   "id": "8.1",
+   "title": "8.1 软件系统质量属性",
+   "level": 2,
+   "phys_start": 286,
+   "phys_end": 286
+  },
+  {
+   "id": "8.1.1",
+   "title": "8.1.1 质量属性概念",
+   "level": 3,
+   "phys_start": 286,
+   "phys_end": 286
+  },
+  {
+   "id": "8.1.2",
+   "title": "8.1.2 面向架构评估的质量属性",
+   "level": 3,
+   "phys_start": 287,
+   "phys_end": 288
+  },
+  {
+   "id": "8.1.3",
+   "title": "8.1.3 质量属性场景描述",
+   "level": 3,
+   "phys_start": 289,
+   "phys_end": 291
+  },
+  {
+   "id": "8.2",
+   "title": "8.2 系统架构评估",
+   "level": 2,
+   "phys_start": 292,
+   "phys_end": 292
+  },
+  {
+   "id": "8.2.1",
+   "title": "8.2.1 系统架构评估中的重要概念",
+   "level": 3,
+   "phys_start": 293,
+   "phys_end": 293
+  },
+  {
+   "id": "8.2.2",
+   "title": "8.2.2 系统架构评估方法",
+   "level": 3,
+   "phys_start": 294,
+   "phys_end": 303
+  },
+  {
+   "id": "8.3",
+   "title": "8.3 ATAM 方法架构评估实践",
+   "level": 2,
+   "phys_start": 304,
+   "phys_end": 304
+  },
+  {
+   "id": "8.3.1",
+   "title": "8.3.1 阶段1—演示 （ Presentation ）",
+   "level": 3,
+   "phys_start": 304,
+   "phys_end": 306
+  },
+  {
+   "id": "8.3.2",
+   "title": "8.3.2 阶段2—调查和分析",
+   "level": 3,
+   "phys_start": 307,
+   "phys_end": 313
+  },
+  {
+   "id": "8.3.3",
+   "title": "8.3.3 阶段3—测试",
+   "level": 3,
+   "phys_start": 314,
+   "phys_end": 318
+  },
+  {
+   "id": "8.3.4",
+   "title": "8.3.4 阶段4—报告ATAM",
+   "level": 3,
+   "phys_start": 319,
+   "phys_end": 319
+  },
+  {
+   "id": null,
+   "title": "第9章 软件可靠性基础知识",
+   "level": 1,
+   "phys_start": 320,
+   "phys_end": 320
+  },
+  {
+   "id": "9.1",
+   "title": "9.1 软件可靠性基本概念",
+   "level": 2,
+   "phys_start": 320,
+   "phys_end": 320
+  },
+  {
+   "id": "9.1.1",
+   "title": "9.1.1 软件可靠性定义",
+   "level": 3,
+   "phys_start": 320,
+   "phys_end": 321
+  },
+  {
+   "id": "9.1.2",
+   "title": "9.1.2 软件可靠性的定量描述",
+   "level": 3,
+   "phys_start": 322,
+   "phys_end": 323
+  },
+  {
+   "id": "9.1.3",
+   "title": "9.1.3 可靠性目标",
+   "level": 3,
+   "phys_start": 324,
+   "phys_end": 324
+  },
+  {
+   "id": "9.1.4",
+   "title": "9.1.4 可靠性测试的意义",
+   "level": 3,
+   "phys_start": 325,
+   "phys_end": 325
+  },
+  {
+   "id": "9.1.5",
+   "title": "9.1.5 广义的可靠性测试与狭义的可靠性测试",
+   "level": 3,
+   "phys_start": 326,
+   "phys_end": 326
+  },
+  {
+   "id": "9.2",
+   "title": "9.2 软件可靠性建模",
+   "level": 2,
+   "phys_start": 327,
+   "phys_end": 327
+  },
+  {
+   "id": "9.2.1",
+   "title": "9.2.1 影响软件可靠性的因素",
+   "level": 3,
+   "phys_start": 327,
+   "phys_end": 327
+  },
+  {
+   "id": "9.2.2",
+   "title": "9.2.2 软件可靠性的建模方法",
+   "level": 3,
+   "phys_start": 327,
+   "phys_end": 328
+  },
+  {
+   "id": "9.2.3",
+   "title": "9.2.3 软件的可靠性模型分类",
+   "level": 3,
+   "phys_start": 329,
+   "phys_end": 330
+  },
+  {
+   "id": "9.3",
+   "title": "9.3 软件可靠性管理",
+   "level": 2,
+   "phys_start": 331,
+   "phys_end": 332
+  },
+  {
+   "id": "9.4",
+   "title": "9.4 软件可靠性设计",
+   "level": 2,
+   "phys_start": 333,
+   "phys_end": 333
+  },
+  {
+   "id": "9.4.1",
+   "title": "9.4.1 容错设计技术",
+   "level": 3,
+   "phys_start": 334,
+   "phys_end": 334
+  },
+  {
+   "id": "9.4.2",
+   "title": "9.4.2 检错技术",
+   "level": 3,
+   "phys_start": 335,
+   "phys_end": 335
+  },
+  {
+   "id": "9.4.3",
+   "title": "9.4.3 降低复杂度设计",
+   "level": 3,
+   "phys_start": 335,
+   "phys_end": 335
+  },
+  {
+   "id": "9.4.4",
+   "title": "9.4.4 系统配置技术",
+   "level": 3,
+   "phys_start": 336,
+   "phys_end": 336
+  },
+  {
+   "id": "9.5",
+   "title": "9.5 软件可靠性测试",
+   "level": 2,
+   "phys_start": 337,
+   "phys_end": 337
+  },
+  {
+   "id": "9.5.1",
+   "title": "9.5.1 软件可靠性测试概述",
+   "level": 3,
+   "phys_start": 337,
+   "phys_end": 337
+  },
+  {
+   "id": "9.5.2",
+   "title": "9.5.2 定义软件运行剖面",
+   "level": 3,
+   "phys_start": 337,
+   "phys_end": 337
+  },
+  {
+   "id": "9.5.3",
+   "title": "9.5.3 可靠性测试用例设计",
+   "level": 3,
+   "phys_start": 338,
+   "phys_end": 338
+  },
+  {
+   "id": "9.5.4",
+   "title": "9.5.4 可靠性测试的实施",
+   "level": 3,
+   "phys_start": 339,
+   "phys_end": 340
+  },
+  {
+   "id": "9.6",
+   "title": "9.6 软件可靠性评价",
+   "level": 2,
+   "phys_start": 341,
+   "phys_end": 341
+  },
+  {
+   "id": "9.6.1",
+   "title": "9.6.1 软件可靠性评价概述",
+   "level": 3,
+   "phys_start": 341,
+   "phys_end": 341
+  },
+  {
+   "id": "9.6.2",
+   "title": "9.6.2 怎样选择可靠性模型",
+   "level": 3,
+   "phys_start": 341,
+   "phys_end": 341
+  },
+  {
+   "id": "9.6.3",
+   "title": "9.6.3 可靠性数据的收集",
+   "level": 3,
+   "phys_start": 342,
+   "phys_end": 342
+  },
+  {
+   "id": "9.6.4",
+   "title": "9.6.4 软件可靠性的评估和预测",
+   "level": 3,
+   "phys_start": 343,
+   "phys_end": 344
+  },
+  {
+   "id": null,
+   "title": "第10章 软件架构的演化和维护",
+   "level": 1,
+   "phys_start": 345,
+   "phys_end": 345
+  },
+  {
+   "id": "10.1",
+   "title": "10.1 软件架构演化和定义的关系",
+   "level": 2,
+   "phys_start": 345,
+   "phys_end": 345
+  },
+  {
+   "id": "10.1.1",
+   "title": "10.1.1 演化的重要性",
+   "level": 3,
+   "phys_start": 345,
+   "phys_end": 345
+  },
+  {
+   "id": "10.1.2",
+   "title": "10.1.2 演化和定义的关系",
+   "level": 3,
+   "phys_start": 346,
+   "phys_end": 346
+  },
+  {
+   "id": "10.2",
+   "title": "10.2 面向对象软件架构演化过程",
+   "level": 2,
+   "phys_start": 346,
+   "phys_end": 346
+  },
+  {
+   "id": "10.2.1",
+   "title": "10.2.1 对象演化",
+   "level": 3,
+   "phys_start": 346,
+   "phys_end": 346
+  },
+  {
+   "id": "10.2.2",
+   "title": "10.2.2 消息演化",
+   "level": 3,
+   "phys_start": 347,
+   "phys_end": 348
+  },
+  {
+   "id": "10.2.3",
+   "title": "10.2.3 复合片段演化",
+   "level": 3,
+   "phys_start": 349,
+   "phys_end": 350
+  },
+  {
+   "id": "10.2.4",
+   "title": "10.2.4 约束演化",
+   "level": 3,
+   "phys_start": 351,
+   "phys_end": 351
+  },
+  {
+   "id": "10.3",
+   "title": "10.3 软件架构演化方式的分类",
+   "level": 2,
+   "phys_start": 351,
+   "phys_end": 351
+  },
+  {
+   "id": "10.3.1",
+   "title": "10.3.1 软件架构演化时期",
+   "level": 3,
+   "phys_start": 351,
+   "phys_end": 351
+  },
+  {
+   "id": "10.3.2",
+   "title": "10.3.2 软件架构静态演化",
+   "level": 3,
+   "phys_start": 352,
+   "phys_end": 354
+  },
+  {
+   "id": "10.3.3",
+   "title": "10.3.3 软件架构动态演化",
+   "level": 3,
+   "phys_start": 355,
+   "phys_end": 361
+  },
+  {
+   "id": "10.4",
+   "title": "10.4 软件架构演化原则",
+   "level": 2,
+   "phys_start": 362,
+   "phys_end": 365
+  },
+  {
+   "id": "10.5",
+   "title": "10.5 软件架构演化评估方法",
+   "level": 2,
+   "phys_start": 366,
+   "phys_end": 366
+  },
+  {
+   "id": "10.5.1",
+   "title": "10.5.1 演化过程已知的评估",
+   "level": 3,
+   "phys_start": 366,
+   "phys_end": 368
+  },
+  {
+   "id": "10.5.2",
+   "title": "10.5.2 演化过程未知的评估",
+   "level": 3,
+   "phys_start": 369,
+   "phys_end": 369
+  },
+  {
+   "id": "10.6",
+   "title": "10.6 大型网站系统架构演化实例",
+   "level": 2,
+   "phys_start": 369,
+   "phys_end": 369
+  },
+  {
+   "id": "10.6.1",
+   "title": "10.6.1 第一阶段：单体架构",
+   "level": 3,
+   "phys_start": 370,
+   "phys_end": 370
+  },
+  {
+   "id": "10.6.2",
+   "title": "10.6.2 第二阶段：垂直架构",
+   "level": 3,
+   "phys_start": 370,
+   "phys_end": 370
+  },
+  {
+   "id": "10.6.3",
+   "title": "10.6.3 第三阶段：使用缓存改善网站性能",
+   "level": 3,
+   "phys_start": 370,
+   "phys_end": 370
+  },
+  {
+   "id": "10.6.4",
+   "title": "10.6.4 第四阶段：使用服务集群改善网站并发处理能力",
+   "level": 3,
+   "phys_start": 371,
+   "phys_end": 371
+  },
+  {
+   "id": "10.6.5",
+   "title": "10.6.5 第五阶段：数据库读写分离",
+   "level": 3,
+   "phys_start": 372,
+   "phys_end": 372
+  },
+  {
+   "id": "10.6.6",
+   "title": "10.6.6 第六阶段：使用反向代理和CDN 加速网站响应",
+   "level": 3,
+   "phys_start": 373,
+   "phys_end": 373
+  },
+  {
+   "id": "10.6.7",
+   "title": "10.6.7 第七阶段：使用分布式文件系统和分布式数据库系统",
+   "level": 3,
+   "phys_start": 374,
+   "phys_end": 374
+  },
+  {
+   "id": "10.6.8",
+   "title": "10.6.8 第八阶段：使用NoSQL和搜索引擎",
+   "level": 3,
+   "phys_start": 374,
+   "phys_end": 374
+  },
+  {
+   "id": "10.6.9",
+   "title": "10.6.9 第九阶段：业务拆分",
+   "level": 3,
+   "phys_start": 375,
+   "phys_end": 375
+  },
+  {
+   "id": "10.6.10",
+   "title": "10.6.10 第十阶段：分布式服务",
+   "level": 3,
+   "phys_start": 376,
+   "phys_end": 376
+  },
+  {
+   "id": "10.7",
+   "title": "10.7 软件架构维护",
+   "level": 2,
+   "phys_start": 377,
+   "phys_end": 377
+  },
+  {
+   "id": "10.7.1",
+   "title": "10.7.1 软件架构知识管理",
+   "level": 3,
+   "phys_start": 377,
+   "phys_end": 377
+  },
+  {
+   "id": "10.7.2",
+   "title": "10.7.2 软件架构修改管理",
+   "level": 3,
+   "phys_start": 378,
+   "phys_end": 378
+  },
+  {
+   "id": "10.7.3",
+   "title": "10.7.3 软件架构版本管理",
+   "level": 3,
+   "phys_start": 378,
+   "phys_end": 378
+  },
+  {
+   "id": "10.7.4",
+   "title": "10.7.4 软件架构可维护性度量实践",
+   "level": 3,
+   "phys_start": 379,
+   "phys_end": 383
+  },
+  {
+   "id": null,
+   "title": "第11章 未来信息综合技术",
+   "level": 1,
+   "phys_start": 384,
+   "phys_end": 384
+  },
+  {
+   "id": "11.1",
+   "title": "11.1 信息物理系统技术概述",
+   "level": 2,
+   "phys_start": 384,
+   "phys_end": 384
+  },
+  {
+   "id": "11.1.1",
+   "title": "11.1.1 信息物理系统的概念",
+   "level": 3,
+   "phys_start": 384,
+   "phys_end": 384
+  },
+  {
+   "id": "11.1.2",
+   "title": "11.1.2 CPS的实现",
+   "level": 3,
+   "phys_start": 385,
+   "phys_end": 386
+  },
+  {
+   "id": "11.1.3",
+   "title": "11.1.3 信息物理系统的建设和应用",
+   "level": 3,
+   "phys_start": 387,
+   "phys_end": 388
+  },
+  {
+   "id": "11.2",
+   "title": "11.2 人工智能技术概述",
+   "level": 2,
+   "phys_start": 389,
+   "phys_end": 389
+  },
+  {
+   "id": "11.2.1",
+   "title": "11.2.1 人工智能的概念",
+   "level": 3,
+   "phys_start": 389,
+   "phys_end": 389
+  },
+  {
+   "id": "11.2.2",
+   "title": "11.2.2 人工智能的发展历程",
+   "level": 3,
+   "phys_start": 390,
+   "phys_end": 390
+  },
+  {
+   "id": "11.2.3",
+   "title": "11.2.3 人工智能关键技术",
+   "level": 3,
+   "phys_start": 391,
+   "phys_end": 394
+  },
+  {
+   "id": "11.3",
+   "title": "11.3 机器人技术概述",
+   "level": 2,
+   "phys_start": 395,
+   "phys_end": 395
+  },
+  {
+   "id": "11.3.1",
+   "title": "11.3.1 机器人的概念",
+   "level": 3,
+   "phys_start": 395,
+   "phys_end": 395
+  },
+  {
+   "id": "11.3.2",
+   "title": "11.3.2 机器人的定义和发展历程",
+   "level": 3,
+   "phys_start": 395,
+   "phys_end": 395
+  },
+  {
+   "id": "11.3.3",
+   "title": "11.3.3 机器人4.0的核心技术",
+   "level": 3,
+   "phys_start": 396,
+   "phys_end": 397
+  },
+  {
+   "id": "11.3.4",
+   "title": "11.3.4 机器人的分类",
+   "level": 3,
+   "phys_start": 398,
+   "phys_end": 398
+  },
+  {
+   "id": "11.4",
+   "title": "11.4 边缘计算概述",
+   "level": 2,
+   "phys_start": 399,
+   "phys_end": 399
+  },
+  {
+   "id": "11.4.1",
+   "title": "11.4.1 边缘计算概念",
+   "level": 3,
+   "phys_start": 399,
+   "phys_end": 399
+  },
+  {
+   "id": "11.4.2",
+   "title": "11.4.2 边缘计算的定义",
+   "level": 3,
+   "phys_start": 400,
+   "phys_end": 400
+  },
+  {
+   "id": "11.4.3",
+   "title": "11.4.3 边缘计算的特点",
+   "level": 3,
+   "phys_start": 401,
+   "phys_end": 401
+  },
+  {
+   "id": "11.4.4",
+   "title": "11.4.4 边云协同",
+   "level": 3,
+   "phys_start": 401,
+   "phys_end": 401
+  },
+  {
+   "id": "11.4.5",
+   "title": "11.4.5 边缘计算的安全",
+   "level": 3,
+   "phys_start": 402,
+   "phys_end": 402
+  },
+  {
+   "id": "11.4.6",
+   "title": "11.4.6 边缘计算应用场合",
+   "level": 3,
+   "phys_start": 403,
+   "phys_end": 404
+  },
+  {
+   "id": "11.5",
+   "title": "11.5 数字孪生体技术概述",
+   "level": 2,
+   "phys_start": 405,
+   "phys_end": 405
+  },
+  {
+   "id": "11.5.1",
+   "title": "11.5.1 数字孪生体发展历程",
+   "level": 3,
+   "phys_start": 405,
+   "phys_end": 405
+  },
+  {
+   "id": "11.5.2",
+   "title": "11.5.2 数字孪生体的定义",
+   "level": 3,
+   "phys_start": 406,
+   "phys_end": 406
+  },
+  {
+   "id": "11.5.3",
+   "title": "11.5.3 数字孪生体的关键技术",
+   "level": 3,
+   "phys_start": 407,
+   "phys_end": 407
+  },
+  {
+   "id": "11.5.4",
+   "title": "11.5.4 数字孪生体的应用",
+   "level": 3,
+   "phys_start": 408,
+   "phys_end": 408
+  },
+  {
+   "id": "11.6",
+   "title": "11.6 云计算和大数据技术概述",
+   "level": 2,
+   "phys_start": 409,
+   "phys_end": 409
+  },
+  {
+   "id": "11.6.1",
+   "title": "11.6.1 云计算技术概述",
+   "level": 3,
+   "phys_start": 410,
+   "phys_end": 412
+  },
+  {
+   "id": "11.6.2",
+   "title": "11.6.2 大数据技术概述",
+   "level": 3,
+   "phys_start": 413,
+   "phys_end": 417
+  },
+  {
+   "id": null,
+   "title": "下 篇",
+   "level": 1,
+   "phys_start": 418,
+   "phys_end": 419
+  },
+  {
+   "id": null,
+   "title": "第12章 信息系统架构设计理论与实践",
+   "level": 1,
+   "phys_start": 420,
+   "phys_end": 420
+  },
+  {
+   "id": "12.1",
+   "title": "12.1 信息系统架构基本概念及发展",
+   "level": 2,
+   "phys_start": 420,
+   "phys_end": 420
+  },
+  {
+   "id": "12.1.1",
+   "title": "12.1.1 信息系统架构的概述",
+   "level": 3,
+   "phys_start": 420,
+   "phys_end": 420
+  },
+  {
+   "id": "12.1.2",
+   "title": "12.1.2 信息系统架构的发展",
+   "level": 3,
+   "phys_start": 421,
+   "phys_end": 421
+  },
+  {
+   "id": "12.1.3",
+   "title": "12.1.3 信息系统架构的定义",
+   "level": 3,
+   "phys_start": 421,
+   "phys_end": 422
+  },
+  {
+   "id": "12.2",
+   "title": "12.2 信息系统架构",
+   "level": 2,
+   "phys_start": 423,
+   "phys_end": 423
+  },
+  {
+   "id": "12.2.1",
+   "title": "12.2.1 架构风格",
+   "level": 3,
+   "phys_start": 423,
+   "phys_end": 423
+  },
+  {
+   "id": "12.2.2",
+   "title": "12.2.2 信息系统架构分类",
+   "level": 3,
+   "phys_start": 423,
+   "phys_end": 424
+  },
+  {
+   "id": "12.2.3",
+   "title": "12.2.3 信息系统架构的一般原理",
+   "level": 3,
+   "phys_start": 425,
+   "phys_end": 425
+  },
+  {
+   "id": "12.2.4",
+   "title": "12.2.4 信息系统常用4种架构模型",
+   "level": 3,
+   "phys_start": 426,
+   "phys_end": 429
+  },
+  {
+   "id": "12.2.5",
+   "title": "12.2.5 企业信息系统的总体框架",
+   "level": 3,
+   "phys_start": 430,
+   "phys_end": 431
+  },
+  {
+   "id": "12.3",
+   "title": "12.3 信息系统架构设计方法",
+   "level": 2,
+   "phys_start": 432,
+   "phys_end": 432
+  },
+  {
+   "id": "12.3.1",
+   "title": "12.3.1 ADM架构开发方法",
+   "level": 3,
+   "phys_start": 432,
+   "phys_end": 447
+  },
+  {
+   "id": "12.3.2",
+   "title": "12.3.2 信息化总体架构方法",
+   "level": 3,
+   "phys_start": 448,
+   "phys_end": 452
+  },
+  {
+   "id": "12.4",
+   "title": "12.4 信息系统架构案例分析",
+   "level": 2,
+   "phys_start": 453,
+   "phys_end": 453
+  },
+  {
+   "id": "12.4.1",
+   "title": "12.4.1 价值驱动的体系结构——连接产品策略与体系结构",
+   "level": 3,
+   "phys_start": 453,
+   "phys_end": 455
+  },
+  {
+   "id": "12.4.2",
+   "title": "12.4.2 Web服务在HL7上的应用一Web服务基础实现框架",
+   "level": 3,
+   "phys_start": 456,
+   "phys_end": 460
+  },
+  {
+   "id": "12.4.3",
+   "title": "12.4.3 以服务为中心的企业整合",
+   "level": 3,
+   "phys_start": 461,
+   "phys_end": 465
+  },
+  {
+   "id": null,
+   "title": "第13章 层次式架构设计理论与实践",
+   "level": 1,
+   "phys_start": 466,
+   "phys_end": 466
+  },
+  {
+   "id": "13.1",
+   "title": "13.1 层次式体系结构概述",
+   "level": 2,
+   "phys_start": 466,
+   "phys_end": 467
+  },
+  {
+   "id": "13.2",
+   "title": "13.2 表现层框架设计",
+   "level": 2,
+   "phys_start": 468,
+   "phys_end": 468
+  },
+  {
+   "id": "13.2.1",
+   "title": "13.2.1 表现层设计模式",
+   "level": 3,
+   "phys_start": 468,
+   "phys_end": 469
+  },
+  {
+   "id": "13.2.2",
+   "title": "13.2.2 使用XML设计表现层，统一Web Form与 Windows Form的外观",
+   "level": 3,
+   "phys_start": 470,
+   "phys_end": 470
+  },
+  {
+   "id": "13.2.3",
+   "title": "13.2.3 表现层中UIP设计思想",
+   "level": 3,
+   "phys_start": 471,
+   "phys_end": 472
+  },
+  {
+   "id": "13.2.4",
+   "title": "13.2.4 表现层动态生成设计思想",
+   "level": 3,
+   "phys_start": 473,
+   "phys_end": 473
+  },
+  {
+   "id": "13.3",
+   "title": "13.3 中间层架构设计",
+   "level": 2,
+   "phys_start": 473,
+   "phys_end": 473
+  },
+  {
+   "id": "13.3.1",
+   "title": "13.3.1 业务逻辑层组件设计",
+   "level": 3,
+   "phys_start": 473,
+   "phys_end": 473
+  },
+  {
+   "id": "13.3.2",
+   "title": "13.3.2 业务逻辑层工作流设计",
+   "level": 3,
+   "phys_start": 474,
+   "phys_end": 474
+  },
+  {
+   "id": "13.3.3",
+   "title": "13.3.3 业务逻辑层实体设计",
+   "level": 3,
+   "phys_start": 475,
+   "phys_end": 477
+  },
+  {
+   "id": "13.3.4",
+   "title": "13.3.4 业务逻辑层框架",
+   "level": 3,
+   "phys_start": 478,
+   "phys_end": 478
+  },
+  {
+   "id": "13.4",
+   "title": "13.4 数据访问层设计",
+   "level": 2,
+   "phys_start": 479,
+   "phys_end": 479
+  },
+  {
+   "id": "13.4.15",
+   "title": "13.4.15 种数据访问模式",
+   "level": 3,
+   "phys_start": 479,
+   "phys_end": 480
+  },
+  {
+   "id": "13.4.2",
+   "title": "13.4.2 工厂模式在数据访问层应用",
+   "level": 3,
+   "phys_start": 481,
+   "phys_end": 483
+  },
+  {
+   "id": "13.4.3",
+   "title": "13.4.3 ORM、 Hibernate与CMP20设计思想",
+   "level": 3,
+   "phys_start": 484,
+   "phys_end": 484
+  },
+  {
+   "id": "13.4.4",
+   "title": "13.4.4 灵活运用XML Schema",
+   "level": 3,
+   "phys_start": 485,
+   "phys_end": 485
+  },
+  {
+   "id": "13.4.5",
+   "title": "13.4.5 事务处理设计",
+   "level": 3,
+   "phys_start": 486,
+   "phys_end": 487
+  },
+  {
+   "id": "13.4.6",
+   "title": "13.4.6 连接对象管理设计",
+   "level": 3,
+   "phys_start": 488,
+   "phys_end": 488
+  },
+  {
+   "id": "13.5",
+   "title": "13.5 数据架构规划与设计",
+   "level": 2,
+   "phys_start": 488,
+   "phys_end": 488
+  },
+  {
+   "id": "13.5.1",
+   "title": "13.5.1 数据库设计与类的设计融合",
+   "level": 3,
+   "phys_start": 488,
+   "phys_end": 488
+  },
+  {
+   "id": "13.5.2",
+   "title": "13.5.2 数据库设计与XML设计融合",
+   "level": 3,
+   "phys_start": 489,
+   "phys_end": 489
+  },
+  {
+   "id": "13.6",
+   "title": "13.6 物联网层次架构设计",
+   "level": 2,
+   "phys_start": 490,
+   "phys_end": 490
+  },
+  {
+   "id": "13.7",
+   "title": "13.7 层次式架构案例分析",
+   "level": 2,
+   "phys_start": 491,
+   "phys_end": 491
+  },
+  {
+   "id": "13.7.1",
+   "title": "13.7.1 电子商务网站（网上商店PetShop）",
+   "level": 3,
+   "phys_start": 491,
+   "phys_end": 494
+  },
+  {
+   "id": "13.7.2",
+   "title": "13.7.2 基于物联网架构的电子小票服务系统",
+   "level": 3,
+   "phys_start": 495,
+   "phys_end": 496
+  },
+  {
+   "id": null,
+   "title": "第14章 云原生架构设计理论与实践",
+   "level": 1,
+   "phys_start": 497,
+   "phys_end": 497
+  },
+  {
+   "id": "14.1",
+   "title": "14.1 云原生架构产生背景",
+   "level": 2,
+   "phys_start": 497,
+   "phys_end": 498
+  },
+  {
+   "id": "14.2",
+   "title": "14.2 云原生架构内涵",
+   "level": 2,
+   "phys_start": 499,
+   "phys_end": 499
+  },
+  {
+   "id": "14.2.1",
+   "title": "14.2.1 云原生架构定义",
+   "level": 3,
+   "phys_start": 499,
+   "phys_end": 500
+  },
+  {
+   "id": "14.2.2",
+   "title": "14.2.2 云原生架构原则",
+   "level": 3,
+   "phys_start": 501,
+   "phys_end": 502
+  },
+  {
+   "id": "14.2.3",
+   "title": "14.2.3 主要架构模式",
+   "level": 3,
+   "phys_start": 503,
+   "phys_end": 505
+  },
+  {
+   "id": "14.2.4",
+   "title": "14.2.4 典型的云原生架构反模式",
+   "level": 3,
+   "phys_start": 506,
+   "phys_end": 506
+  },
+  {
+   "id": "14.3",
+   "title": "14.3 云原生架构相关技术",
+   "level": 2,
+   "phys_start": 507,
+   "phys_end": 507
+  },
+  {
+   "id": "14.3.1",
+   "title": "14.3.1 容容器技术",
+   "level": 3,
+   "phys_start": 507,
+   "phys_end": 508
+  },
+  {
+   "id": "14.3.2",
+   "title": "14.3.2 云原生微服务",
+   "level": 3,
+   "phys_start": 509,
+   "phys_end": 510
+  },
+  {
+   "id": "14.3.3",
+   "title": "14.3.3 无服务器技术",
+   "level": 3,
+   "phys_start": 511,
+   "phys_end": 512
+  },
+  {
+   "id": "14.3.4",
+   "title": "14.3.4 服务网格",
+   "level": 3,
+   "phys_start": 513,
+   "phys_end": 514
+  },
+  {
+   "id": "14.4",
+   "title": "14.4 云原生架构案例分析",
+   "level": 2,
+   "phys_start": 515,
+   "phys_end": 515
+  },
+  {
+   "id": "14.4.1",
+   "title": "14.4.1 某旅行公司云原生改造",
+   "level": 3,
+   "phys_start": 515,
+   "phys_end": 516
+  },
+  {
+   "id": "14.4.2",
+   "title": "14.4.2 云原生技术助力某汽车公司数字化转型实践",
+   "level": 3,
+   "phys_start": 517,
+   "phys_end": 518
+  },
+  {
+   "id": "14.4.3",
+   "title": "14.4.3 某快递公司核心业务系统云原生改造",
+   "level": 3,
+   "phys_start": 519,
+   "phys_end": 521
+  },
+  {
+   "id": "14.4.4",
+   "title": "14.4.4 某电商业务云原生改造",
+   "level": 3,
+   "phys_start": 522,
+   "phys_end": 522
+  },
+  {
+   "id": "14.4.5",
+   "title": "14.4.5 某体育用品公司基于云原生架构的业务中台构建",
+   "level": 3,
+   "phys_start": 523,
+   "phys_end": 526
+  },
+  {
+   "id": null,
+   "title": "第15章 面向服务架构设计理论与实践",
+   "level": 1,
+   "phys_start": 527,
+   "phys_end": 527
+  },
+  {
+   "id": "15.1",
+   "title": "15.1 SOA 的相关概念",
+   "level": 2,
+   "phys_start": 527,
+   "phys_end": 527
+  },
+  {
+   "id": "15.1.1",
+   "title": "15.1.1 SOA的定义",
+   "level": 3,
+   "phys_start": 527,
+   "phys_end": 527
+  },
+  {
+   "id": "15.1.2",
+   "title": "15.1.2 业务流程与BPEL",
+   "level": 3,
+   "phys_start": 527,
+   "phys_end": 527
+  },
+  {
+   "id": "15.2",
+   "title": "15.2 SOA 的发展历史",
+   "level": 2,
+   "phys_start": 528,
+   "phys_end": 528
+  },
+  {
+   "id": "15.2.1",
+   "title": "15.2.1 SOA的发展历史",
+   "level": 3,
+   "phys_start": 528,
+   "phys_end": 528
+  },
+  {
+   "id": "15.2.2",
+   "title": "15.2.2 国内SOA的发展现状与国外对比",
+   "level": 3,
+   "phys_start": 514,
+   "phys_end": 529
+  },
+  {
+   "id": "15.2.3",
+   "title": "15.2.3 SOA的微服务化发展",
+   "level": 3,
+   "phys_start": 530,
+   "phys_end": 530
+  },
+  {
+   "id": "15.3",
+   "title": "15.3 SOA 的参考架构",
+   "level": 2,
+   "phys_start": 531,
+   "phys_end": 535
+  },
+  {
+   "id": "15.4",
+   "title": "15.4 SOA 主要协议和规范",
+   "level": 2,
+   "phys_start": 536,
+   "phys_end": 536
+  },
+  {
+   "id": "15.4.1",
+   "title": "15.4.1 UDDI协议",
+   "level": 3,
+   "phys_start": 537,
+   "phys_end": 537
+  },
+  {
+   "id": "15.4.2",
+   "title": "15.4.2 WSDL规范",
+   "level": 3,
+   "phys_start": 537,
+   "phys_end": 537
+  },
+  {
+   "id": "15.4.3",
+   "title": "15.4.3 SOAP协议",
+   "level": 3,
+   "phys_start": 538,
+   "phys_end": 538
+  },
+  {
+   "id": "15.4.4",
+   "title": "15.4.4 REST规范",
+   "level": 3,
+   "phys_start": 539,
+   "phys_end": 539
+  },
+  {
+   "id": "15.5",
+   "title": "15.5 SOA 设计的标准要求",
+   "level": 2,
+   "phys_start": 540,
+   "phys_end": 540
+  },
+  {
+   "id": "15.5.1",
+   "title": "15.5.1 文档杯准化",
+   "level": 3,
+   "phys_start": 540,
+   "phys_end": 540
+  },
+  {
+   "id": "15.5.2",
+   "title": "15.5.2 通信协议标准",
+   "level": 3,
+   "phys_start": 540,
+   "phys_end": 540
+  },
+  {
+   "id": "15.5.3",
+   "title": "15.5.3 应用程序统一登记与集成",
+   "level": 3,
+   "phys_start": 540,
+   "phys_end": 540
+  },
+  {
+   "id": "15.5.4",
+   "title": "15.5.4 服务质量 （QoS）",
+   "level": 3,
+   "phys_start": 540,
+   "phys_end": 540
+  },
+  {
+   "id": "15.6",
+   "title": "15.6 SOA 的作用",
+   "level": 2,
+   "phys_start": 541,
+   "phys_end": 541
+  },
+  {
+   "id": "15.7",
+   "title": "15.7 SOA 的设计原则",
+   "level": 2,
+   "phys_start": 542,
+   "phys_end": 542
+  },
+  {
+   "id": "15.8",
+   "title": "15.8 SOA 的设计模式",
+   "level": 2,
+   "phys_start": 543,
+   "phys_end": 543
+  },
+  {
+   "id": "15.8.1",
+   "title": "15.8.1 服务注册表模式",
+   "level": 3,
+   "phys_start": 543,
+   "phys_end": 543
+  },
+  {
+   "id": "15.8.2",
+   "title": "15.8.2 企业服务总线模式",
+   "level": 3,
+   "phys_start": 544,
+   "phys_end": 544
+  },
+  {
+   "id": "15.8.3",
+   "title": "15.8.3 案例研究",
+   "level": 3,
+   "phys_start": 545,
+   "phys_end": 545
+  },
+  {
+   "id": "15.8.4",
+   "title": "15.8.4 微服务模式",
+   "level": 3,
+   "phys_start": 546,
+   "phys_end": 548
+  },
+  {
+   "id": "15.9",
+   "title": "15.9 构建 SOA 架构时应该注意的问题",
+   "level": 2,
+   "phys_start": 549,
+   "phys_end": 549
+  },
+  {
+   "id": "15.9.1",
+   "title": "15.9.1 原有系统架构中的集成需求",
+   "level": 3,
+   "phys_start": 549,
+   "phys_end": 549
+  },
+  {
+   "id": "15.9.2",
+   "title": "15.9.2 服务粒度的控制以及无状态服务的设计",
+   "level": 3,
+   "phys_start": 550,
+   "phys_end": 550
+  },
+  {
+   "id": "15.10",
+   "title": "15.10 S0A 实施的过程",
+   "level": 2,
+   "phys_start": 551,
+   "phys_end": 551
+  },
+  {
+   "id": "15.10.1",
+   "title": "15.10.1 选择SOA解决方案",
+   "level": 3,
+   "phys_start": 551,
+   "phys_end": 551
+  },
+  {
+   "id": "15.10.2",
+   "title": "15.10.2 业务流程分析",
+   "level": 3,
+   "phys_start": 552,
+   "phys_end": 555
+  },
+  {
+   "id": null,
+   "title": "第16章 嵌入式系统架构设计理论与实践",
+   "level": 1,
+   "phys_start": 556,
+   "phys_end": 556
+  },
+  {
+   "id": "16.1",
+   "title": "16.1 嵌入式系统概述",
+   "level": 2,
+   "phys_start": 556,
+   "phys_end": 556
+  },
+  {
+   "id": "16.1.1",
+   "title": "16.1.1 嵌入式系统发展历程",
+   "level": 3,
+   "phys_start": 556,
+   "phys_end": 556
+  },
+  {
+   "id": "16.1.2",
+   "title": "16.1.2 嵌入式系统硬件体系结构",
+   "level": 3,
+   "phys_start": 556,
+   "phys_end": 562
+  },
+  {
+   "id": "16.1.3",
+   "title": "16.1.3 嵌入式软件架构概述",
+   "level": 3,
+   "phys_start": 563,
+   "phys_end": 564
+  },
+  {
+   "id": "16.2",
+   "title": "16.2 嵌入式系统软件架构原理与特征",
+   "level": 2,
+   "phys_start": 565,
+   "phys_end": 565
+  },
+  {
+   "id": "16.2.1",
+   "title": "16.2.1 两种典型的嵌入式系统架构模式",
+   "level": 3,
+   "phys_start": 565,
+   "phys_end": 565
+  },
+  {
+   "id": "16.2.2",
+   "title": "16.2.2 嵌入式操作系统",
+   "level": 3,
+   "phys_start": 566,
+   "phys_end": 579
+  },
+  {
+   "id": "16.2.3",
+   "title": "16.2.3 嵌入式数据库",
+   "level": 3,
+   "phys_start": 580,
+   "phys_end": 587
+  },
+  {
+   "id": "16.2.4",
+   "title": "16.2.4 嵌入式中间件",
+   "level": 3,
+   "phys_start": 588,
+   "phys_end": 592
+  },
+  {
+   "id": "16.2.5",
+   "title": "16.2.5 嵌入式系统软件开发环境",
+   "level": 3,
+   "phys_start": 593,
+   "phys_end": 597
+  },
+  {
+   "id": "16.3",
+   "title": "16.3 嵌入式系统软件架构设计方法",
+   "level": 2,
+   "phys_start": 598,
+   "phys_end": 598
+  },
+  {
+   "id": "16.3.1",
+   "title": "16.3.1 基于架构的软件设计开发方法的应用",
+   "level": 3,
+   "phys_start": 598,
+   "phys_end": 598
+  },
+  {
+   "id": "16.3.2",
+   "title": "16.3.2 属性驱动的软件设计方法",
+   "level": 3,
+   "phys_start": 598,
+   "phys_end": 601
+  },
+  {
+   "id": "16.3.3",
+   "title": "16.3.3 实时系统设计方法",
+   "level": 3,
+   "phys_start": 602,
+   "phys_end": 604
+  },
+  {
+   "id": "16.4",
+   "title": "16.4 嵌入式系统软件架构案例分析",
+   "level": 2,
+   "phys_start": 605,
+   "phys_end": 605
+  },
+  {
+   "id": "16.4.1",
+   "title": "16.4.1 鸿蒙操作系统架构案例分析",
+   "level": 3,
+   "phys_start": 605,
+   "phys_end": 607
+  },
+  {
+   "id": "16.4.2",
+   "title": "16.4.2 面向安全攸关系统的跨领域 GENESYS系统架构案例分析",
+   "level": 3,
+   "phys_start": 608,
+   "phys_end": 611
+  },
+  {
+   "id": "16.4.3",
+   "title": "16.4.3 物联网操作系统软件架构案例分析",
+   "level": 3,
+   "phys_start": 612,
+   "phys_end": 613
+  },
+  {
+   "id": null,
+   "title": "第17章 通信系统架构设计理论与实践",
+   "level": 1,
+   "phys_start": 614,
+   "phys_end": 614
+  },
+  {
+   "id": "17.1",
+   "title": "17.1 通信系统概述",
+   "level": 2,
+   "phys_start": 614,
+   "phys_end": 614
+  },
+  {
+   "id": "17.2",
+   "title": "17.2 通信系统网络架构",
+   "level": 2,
+   "phys_start": 614,
+   "phys_end": 614
+  },
+  {
+   "id": "17.2.1",
+   "title": "17.2.1 局域网网络架构",
+   "level": 3,
+   "phys_start": 614,
+   "phys_end": 617
+  },
+  {
+   "id": "17.2.2",
+   "title": "17.2.2 广域网网络架构",
+   "level": 3,
+   "phys_start": 618,
+   "phys_end": 621
+  },
+  {
+   "id": "17.2.3",
+   "title": "17.2.3 移动通信网网络架构",
+   "level": 3,
+   "phys_start": 622,
+   "phys_end": 623
+  },
+  {
+   "id": "17.2.4",
+   "title": "17.2.4 存储网络架构",
+   "level": 3,
+   "phys_start": 624,
+   "phys_end": 625
+  },
+  {
+   "id": "17.2.5",
+   "title": "17.2.5 软件定义网络架构",
+   "level": 3,
+   "phys_start": 626,
+   "phys_end": 626
+  },
+  {
+   "id": "17.3",
+   "title": "17.3 网络构建关键技术",
+   "level": 2,
+   "phys_start": 627,
+   "phys_end": 627
+  },
+  {
+   "id": "17.3.1",
+   "title": "17.3.1 网络高可用设计",
+   "level": 3,
+   "phys_start": 628,
+   "phys_end": 628
+  },
+  {
+   "id": "17.3.2",
+   "title": "17.3.2 IPv4与IPv6融合组网技术",
+   "level": 3,
+   "phys_start": 629,
+   "phys_end": 630
+  },
+  {
+   "id": "17.3.3",
+   "title": "17.3.3 SDN技术",
+   "level": 3,
+   "phys_start": 631,
+   "phys_end": 631
+  },
+  {
+   "id": "17.4",
+   "title": "17.4 网络构建和设计方法",
+   "level": 2,
+   "phys_start": 632,
+   "phys_end": 632
+  },
+  {
+   "id": "17.4.1",
+   "title": "17.4.1 网络需求分析",
+   "level": 3,
+   "phys_start": 632,
+   "phys_end": 632
+  },
+  {
+   "id": "17.4.2",
+   "title": "17.4.2 网络技术遴选及设计",
+   "level": 3,
+   "phys_start": 633,
+   "phys_end": 636
+  },
+  {
+   "id": "17.4.3",
+   "title": "17.4.3 网络安全",
+   "level": 3,
+   "phys_start": 637,
+   "phys_end": 638
+  },
+  {
+   "id": "17.4.4",
+   "title": "17.4.4 绿色网络设计方法",
+   "level": 3,
+   "phys_start": 639,
+   "phys_end": 640
+  },
+  {
+   "id": "17.5",
+   "title": "17.5 通信网络构建案例分析",
+   "level": 2,
+   "phys_start": 641,
+   "phys_end": 641
+  },
+  {
+   "id": "17.5.1",
+   "title": "17.5.1 高可用网络构建分析",
+   "level": 3,
+   "phys_start": 641,
+   "phys_end": 644
+  },
+  {
+   "id": "17.5.2",
+   "title": "17.5.2 园区网双栈构建分析",
+   "level": 3,
+   "phys_start": 645,
+   "phys_end": 645
+  },
+  {
+   "id": "17.5.35",
+   "title": "17.5.35 G网络应用",
+   "level": 3,
+   "phys_start": 646,
+   "phys_end": 647
+  },
+  {
+   "id": null,
+   "title": "第18章 ．安全架构设计理论与实践",
+   "level": 1,
+   "phys_start": 648,
+   "phys_end": 648
+  },
+  {
+   "id": "18.1",
+   "title": "18.1 安全架构概述",
+   "level": 2,
+   "phys_start": 648,
+   "phys_end": 648
+  },
+  {
+   "id": "18.1.1",
+   "title": "18.1.1 信息安全面临的威胁",
+   "level": 3,
+   "phys_start": 648,
+   "phys_end": 649
+  },
+  {
+   "id": "18.1.2",
+   "title": "18.1.2 安全架构的定义和范围",
+   "level": 3,
+   "phys_start": 650,
+   "phys_end": 650
+  },
+  {
+   "id": "18.1.3",
+   "title": "18.1.3 与信息安全相关的国内外标准及组织",
+   "level": 3,
+   "phys_start": 650,
+   "phys_end": 652
+  },
+  {
+   "id": "18.2",
+   "title": "18.2 安全模型",
+   "level": 2,
+   "phys_start": 653,
+   "phys_end": 653
+  },
+  {
+   "id": "18.2.1",
+   "title": "18.2.1 状态机模型",
+   "level": 3,
+   "phys_start": 654,
+   "phys_end": 654
+  },
+  {
+   "id": "18.2.2",
+   "title": "18.2.2 Bell-LaPadula模型",
+   "level": 3,
+   "phys_start": 655,
+   "phys_end": 655
+  },
+  {
+   "id": "18.2.3",
+   "title": "18.2.3 Biba模型",
+   "level": 3,
+   "phys_start": 656,
+   "phys_end": 656
+  },
+  {
+   "id": "18.2.4",
+   "title": "18.2.4 Clark-Wilson模型",
+   "level": 3,
+   "phys_start": 657,
+   "phys_end": 657
+  },
+  {
+   "id": "18.2.5",
+   "title": "18.2.5 Chinese Wall模型",
+   "level": 3,
+   "phys_start": 658,
+   "phys_end": 658
+  },
+  {
+   "id": "18.3",
+   "title": "18.3 系统安全体系架构规划框架",
+   "level": 2,
+   "phys_start": 659,
+   "phys_end": 659
+  },
+  {
+   "id": "18.3.1",
+   "title": "18.3.1 安全技术体系架构",
+   "level": 3,
+   "phys_start": 659,
+   "phys_end": 659
+  },
+  {
+   "id": "18.3.2",
+   "title": "18.3.2 信息系统安全体系规划",
+   "level": 3,
+   "phys_start": 660,
+   "phys_end": 660
+  },
+  {
+   "id": "18.3.3",
+   "title": "18.3.3 信息系统安全规划框架",
+   "level": 3,
+   "phys_start": 661,
+   "phys_end": 662
+  },
+  {
+   "id": "18.4",
+   "title": "18.4 信息安全整体架构设计（WPDRRC 模型）",
+   "level": 2,
+   "phys_start": 663,
+   "phys_end": 663
+  },
+  {
+   "id": "18.4.1",
+   "title": "18.4.1 WPDRRC信息安全体系架构模型",
+   "level": 3,
+   "phys_start": 663,
+   "phys_end": 663
+  },
+  {
+   "id": "18.4.2",
+   "title": "18.4.2 信息安全体系架构设计",
+   "level": 3,
+   "phys_start": 664,
+   "phys_end": 667
+  },
+  {
+   "id": "18.5",
+   "title": "18.5 网络安全体系架构设计",
+   "level": 2,
+   "phys_start": 668,
+   "phys_end": 668
+  },
+  {
+   "id": "18.5.1",
+   "title": "18.5.1 OSI的安全体系架构概述",
+   "level": 3,
+   "phys_start": 668,
+   "phys_end": 670
+  },
+  {
+   "id": "18.5.2",
+   "title": "18.5.2 认证框架",
+   "level": 3,
+   "phys_start": 671,
+   "phys_end": 671
+  },
+  {
+   "id": "18.5.3",
+   "title": "18.5.3 访问控制框架",
+   "level": 3,
+   "phys_start": 672,
+   "phys_end": 672
+  },
+  {
+   "id": "18.5.4",
+   "title": "18.5.4 机密性框架",
+   "level": 3,
+   "phys_start": 673,
+   "phys_end": 673
+  },
+  {
+   "id": "18.5.5",
+   "title": "18.5.5 完整性框架",
+   "level": 3,
+   "phys_start": 674,
+   "phys_end": 674
+  },
+  {
+   "id": "18.5.6",
+   "title": "18.5.6 抗抵赖框架",
+   "level": 3,
+   "phys_start": 674,
+   "phys_end": 675
+  },
+  {
+   "id": "18.6",
+   "title": "18.6 数据库系统的安全设计",
+   "level": 2,
+   "phys_start": 676,
+   "phys_end": 676
+  },
+  {
+   "id": "18.6.1",
+   "title": "18.6.1 数据库安全设计的评估标准",
+   "level": 3,
+   "phys_start": 676,
+   "phys_end": 676
+  },
+  {
+   "id": "18.6.2",
+   "title": "18.6.2 数据库的完整性设计",
+   "level": 3,
+   "phys_start": 677,
+   "phys_end": 678
+  },
+  {
+   "id": "18.7",
+   "title": "18.7 系统架构的脆弱性分析",
+   "level": 2,
+   "phys_start": 679,
+   "phys_end": 679
+  },
+  {
+   "id": "18.7.1",
+   "title": "18.7.1 概述",
+   "level": 3,
+   "phys_start": 679,
+   "phys_end": 679
+  },
+  {
+   "id": "18.7.2",
+   "title": "18.7.2 软件脆弱性",
+   "level": 3,
+   "phys_start": 680,
+   "phys_end": 682
+  },
+  {
+   "id": "18.7.3",
+   "title": "18.7.3 典型软件架构的脆弱性分析",
+   "level": 3,
+   "phys_start": 683,
+   "phys_end": 685
+  },
+  {
+   "id": "18.8",
+   "title": "18.8 安全架构设计案例分析",
+   "level": 2,
+   "phys_start": 686,
+   "phys_end": 686
+  },
+  {
+   "id": "18.8.1",
+   "title": "18.8.1 电子商务系统的安全性设计",
+   "level": 3,
+   "phys_start": 686,
+   "phys_end": 688
+  },
+  {
+   "id": "18.8.2",
+   "title": "18.8.2 基于混合云的工业安全架构设计",
+   "level": 3,
+   "phys_start": 689,
+   "phys_end": 690
+  },
+  {
+   "id": null,
+   "title": "第19章 大数据架构设计理论与实践",
+   "level": 1,
+   "phys_start": 691,
+   "phys_end": 691
+  },
+  {
+   "id": "19.1",
+   "title": "19.1 传统数据处理系统存在的问题",
+   "level": 2,
+   "phys_start": 691,
+   "phys_end": 692
+  },
+  {
+   "id": "19.2",
+   "title": "19.2 大数据处理系统架构分析",
+   "level": 2,
+   "phys_start": 693,
+   "phys_end": 693
+  },
+  {
+   "id": "19.2.1",
+   "title": "19.2.1 大数据处理系统面临挑战",
+   "level": 3,
+   "phys_start": 693,
+   "phys_end": 693
+  },
+  {
+   "id": "19.2.2",
+   "title": "19.2.2 大数据处理系统架构特征",
+   "level": 3,
+   "phys_start": 694,
+   "phys_end": 694
+  },
+  {
+   "id": "19.3",
+   "title": "19.3 Lambda 架构",
+   "level": 2,
+   "phys_start": 695,
+   "phys_end": 695
+  },
+  {
+   "id": "19.3.1",
+   "title": "19.3.1 Lambda架构对大数据处理系统的理解",
+   "level": 3,
+   "phys_start": 695,
+   "phys_end": 695
+  },
+  {
+   "id": "19.3.2",
+   "title": "19.3.2 Lambda架构应用场景",
+   "level": 3,
+   "phys_start": 695,
+   "phys_end": 695
+  },
+  {
+   "id": "19.3.3",
+   "title": "19.3.3 Lambda架构介绍",
+   "level": 3,
+   "phys_start": 696,
+   "phys_end": 698
+  },
+  {
+   "id": "19.3.4",
+   "title": "19.3.4 Lambda架构的实现",
+   "level": 3,
+   "phys_start": 699,
+   "phys_end": 699
+  },
+  {
+   "id": "19.3.5",
+   "title": "19.3.5 Lambda架构优缺点",
+   "level": 3,
+   "phys_start": 700,
+   "phys_end": 700
+  },
+  {
+   "id": "19.3.6",
+   "title": "19.3.6 Lambda与其他架构模式对比",
+   "level": 3,
+   "phys_start": 700,
+   "phys_end": 700
+  },
+  {
+   "id": "19.4",
+   "title": "19.4 Kappa 架构",
+   "level": 2,
+   "phys_start": 701,
+   "phys_end": 701
+  },
+  {
+   "id": "19.4.1",
+   "title": "19.4.1 Kappa架构下对大数据处理系统的理解",
+   "level": 3,
+   "phys_start": 701,
+   "phys_end": 701
+  },
+  {
+   "id": "19.4.2",
+   "title": "19.4.2 Kappa架构介绍",
+   "level": 3,
+   "phys_start": 702,
+   "phys_end": 702
+  },
+  {
+   "id": "19.4.3",
+   "title": "19.4.3 Kappa架构的实现",
+   "level": 3,
+   "phys_start": 703,
+   "phys_end": 703
+  },
+  {
+   "id": "19.4.4",
+   "title": "19.4.4 Kappa架构的优缺点",
+   "level": 3,
+   "phys_start": 703,
+   "phys_end": 703
+  },
+  {
+   "id": "19.4.5",
+   "title": "19.4.5 常见Kappa架构变形",
+   "level": 3,
+   "phys_start": 704,
+   "phys_end": 704
+  },
+  {
+   "id": "19.5",
+   "title": "19.5 Lambda 架构与 Kappa 架构的对比和设计选择",
+   "level": 2,
+   "phys_start": 705,
+   "phys_end": 705
+  },
+  {
+   "id": "19.5.1",
+   "title": "19.5.1 Lambda架构与Kappa架构的特性对比",
+   "level": 3,
+   "phys_start": 705,
+   "phys_end": 706
+  },
+  {
+   "id": "19.5.2",
+   "title": "19.5.2 Lambda架构与Kappa架构的设计选择",
+   "level": 3,
+   "phys_start": 707,
+   "phys_end": 707
+  },
+  {
+   "id": "19.6",
+   "title": "19.6 大数据架构设计案例分析",
+   "level": 2,
+   "phys_start": 707,
+   "phys_end": 707
+  },
+  {
+   "id": "19.6.1",
+   "title": "19.6.1 Lambda架构在某网奥运中的大数据应用",
+   "level": 3,
+   "phys_start": 707,
+   "phys_end": 707
+  },
+  {
+   "id": "19.6.2",
+   "title": "19.6.2 Lambda架构在某网广告平台的应用与演进",
+   "level": 3,
+   "phys_start": 694,
+   "phys_end": 711
+  },
+  {
+   "id": "19.6.3",
+   "title": "19.6.3 某证券公司大数据系统",
+   "level": 3,
+   "phys_start": 712,
+   "phys_end": 713
+  },
+  {
+   "id": "19.6.4",
+   "title": "19.6.4 某电商智能决策大数据系统",
+   "level": 3,
+   "phys_start": 714,
+   "phys_end": 716
+  },
+  {
+   "id": null,
+   "title": "第20章 系统架构设计师论文写作要点",
+   "level": 1,
+   "phys_start": 717,
+   "phys_end": 717
+  },
+  {
+   "id": "20.1",
+   "title": "20.1 写作注意事项",
+   "level": 2,
+   "phys_start": 717,
+   "phys_end": 717
+  },
+  {
+   "id": "20.1.1",
+   "title": "20.1.1 做好准备工作",
+   "level": 3,
+   "phys_start": 717,
+   "phys_end": 717
+  },
+  {
+   "id": "20.1.2",
+   "title": "20.1.2 论文写作格式",
+   "level": 3,
+   "phys_start": 718,
+   "phys_end": 718
+  },
+  {
+   "id": "20.2",
+   "title": "20.2 如何解答试题",
+   "level": 2,
+   "phys_start": 719,
+   "phys_end": 719
+  },
+  {
+   "id": "20.2.1",
+   "title": "20.2.1 论文解答步骤",
+   "level": 3,
+   "phys_start": 720,
+   "phys_end": 720
+  },
+  {
+   "id": "20.2.2",
+   "title": "20.2.2 论文解答实例",
+   "level": 3,
+   "phys_start": 720,
+   "phys_end": 722
+  },
+  {
+   "id": "20.3",
+   "title": "20.3 论文写作方法",
+   "level": 2,
+   "phys_start": 723,
+   "phys_end": 723
+  },
+  {
+   "id": "20.3.1",
+   "title": "20.3.1 如何写好摘要",
+   "level": 3,
+   "phys_start": 723,
+   "phys_end": 723
+  },
+  {
+   "id": "20.3.2",
+   "title": "20.3.2 如何写好正文",
+   "level": 3,
+   "phys_start": 724,
+   "phys_end": 725
+  },
+  {
+   "id": "20.3.3",
+   "title": "20.3.3 摘要和正文的关系",
+   "level": 3,
+   "phys_start": 726,
+   "phys_end": 726
+  },
+  {
+   "id": "20.4",
+   "title": "20.4 常见问题及解决办法",
+   "level": 2,
+   "phys_start": 726,
+   "phys_end": 728
+  }
+ ]
+}
