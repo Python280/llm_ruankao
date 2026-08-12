@@ -1,15 +1,16 @@
 ---
-source_pdf: 计算机基础知识.pdf（希赛系统架构设计师讲义·第一章）
+source_pdf: 多源（希赛讲义 + 一本通 + 32小时通关 + 官方教程）
 part: 00-Dashboard
-keywords: [MOC, 主题地图, 学习路线, tag索引]
+keywords: [MOC, 主题地图, 学习路线, tag索引, 多源]
 tags: [ruankao, moc]
 ---
 
-# MOC · 第一章 计算机系统基础知识
+# MOC · 系统架构设计师 StudyVault
 
-> 本章考情：3 年合计 **13 分**（6+3+4）。学习顺序建议：0103 进程管理 → 0104 存储 → 0107 性能 → 0106 文件 → 0105 磁盘 → 0101/0102。
+> 第一章考情：3 年合计 **13 分**（6+3+4）。学习顺序建议：0103 进程管理 → 0104 存储 → 0107 性能 → 0106 文件 → 0105 磁盘 → 0101/0102。
+> 第二章考情：合计 **9 分**（微处理器 4 + 实时OS 2 + 内核架构 2 + 数据库 1）。学习顺序建议：0204 操作系统 → 0203 硬件 → 0205 数据库 → 0201/0202。
 
-## Topic Map（主题地图）
+## Topic Map · 第一章 计算机系统基础知识
 
 ### 0101 计算机系统组成（1 分）#computer-system
 - [[冯诺依曼与指令系统-CISC-RISC]] — 存储程序、CISC/RISC 对比
@@ -50,14 +51,55 @@ tags: [ruankao, moc]
 - [[Web性能评估与系统监视]] — Web 指标、系统监视三方式
 - 练习：[[练习题-系统性能]]
 
+## Topic Map · 第二章 嵌入式技术（9 分）
+
+### 0201 嵌入式系统概述（★）#embedded
+- [[嵌入式系统概念与架构]] — 定义三角度、五层架构（HAL/BSP）、初始化三级、看门狗/JTAG
+- 练习：[[练习题-嵌入式系统概述]]
+
+### 0202 嵌入式系统设计（★）#embedded
+- [[嵌入式软件开发与低功耗设计]] — 开发 8 差异、交叉开发环境、JTAG、低功耗 5 方面
+- 练习：[[练习题-嵌入式系统设计]]
+
+### 0203 嵌入式硬件（★★，4 分）#embedded #hardware
+- [[嵌入式微处理器分类]] — 五阶段、MPU/MCU/DSP/GPU/SoC
+- [[AI芯片]] — 四类（GPU/FPGA/ASIC/类脑）+ 六特征（讲义独有，无旁证）
+- [[处理器体系结构与总线]] — 冯/哈对比、Flynn 四分类、总线三分类、并串行
+- 练习：[[练习题-嵌入式硬件]]
+
+### 0204 嵌入式操作系统（★★★，4 分）#embedded #rtos
+- [[嵌入式实时操作系统]] — RTOS 五特点、三指标、调度四算法（EDF=头端/最晚=末端）
+- [[内核架构与鸿蒙]] — 宏/微内核对比（鸿蒙=微内核）、四层架构、四特性
+- 练习：[[练习题-嵌入式操作系统]]
+
+### 0205 嵌入式数据库（★，1 分）#embedded #database
+- [[嵌入式数据库分类与特点]] — 四特点、MMDB/FDB/NDB 对比、NDB 三组成
+- 练习：[[练习题-嵌入式数据库]]
+
+## 多源源构成表
+
+| 章 | 骨架 | 补肉 | 习题补充 | 缺口 |
+|---|---|---|---|---|
+| 第一章 | 讲义 JSON（ai-doc-parse） | —（单源） | — | 无 |
+| 第二章 | 讲义视觉抽取（source/ch02/讲义_嵌入式技术.json） | 一本通 p45-53/p17/p24、官方 §16.2.3 | 32h 第2小时 p13-19 | AI芯片无旁证；一本通无嵌入式数据库 |
+
+## 页码约定
+
+| 书 | 简称 | 换算 |
+|---|---|---|
+| 官方教程[第二版] | 官方 | 书签=物理页；印刷页 = 物理 − 15 |
+| 一本通·精华知识点 | 一本通 | 印刷页 = 物理页（偏移 0 已核对） |
+| 32小时通关 | 32h | 物理页 = 印刷页 + 9 |
+
 ## Study Tools（学习工具）
 
+- [[串讲-第一章]] — 第一章通俗串联（硬件→OS→进程→内存→磁盘→文件→性能）
 - [[Quick-Reference]] — 公式/对比表/口诀速查
 - [[Exam-Traps]] — 全章易错点，考前刷
 
 ## Tag Index（规则：领域 tag + 考点 tag + 类型 tag 共附）
 
-- 领域：`#computer-system` `#os` `#process` `#memory` `#disk` `#file-system` `#performance`
+- 领域：`#computer-system` `#os` `#process` `#memory` `#disk` `#file-system` `#performance` `#embedded` `#hardware` `#rtos` `#database`
 - 考点：`#cisc-risc` `#locality` `#io-control` `#pv-operation` `#precedence-graph` `#deadlock` `#banker` `#paging` `#segmentation` `#disk-scheduling` `#index-file` `#bitmap` `#amdahl` `#benchmark`
 - 类型：`#concept`（概念笔记）`#practice`（练习题）`#quick-ref` `#exam-trap` `#moc`
 

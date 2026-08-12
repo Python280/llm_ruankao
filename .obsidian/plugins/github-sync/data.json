@@ -1,9 +1,0 @@
-{
-  "remoteURL": "https://github.com/Python280/llm_ruankao.git",
-  "gitLocation": "",
-  "syncinterval": 0,
-  "isSyncOnLoad": true,
-  "checkStatusOnLoad": true,
-  "noticeLevel": "ALL",
-  "showSyncSuccessNotice": true
-}
