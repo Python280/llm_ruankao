@@ -51,6 +51,10 @@ tags: [ruankao, moc]
 - [[Web性能评估与系统监视]] — Web 指标、系统监视三方式
 - 练习：[[练习题-系统性能]]
 
+### 0108 中间件与构件（大纲补漏，讲义未讲）#middleware
+- [[中间件与软件构件]] — 中间件定义/类型/产品（MQSeries/Tuxedo）、构件/CORBA/J2EE/DNA2000
+- 练习：[[练习题-中间件与构件]]
+
 ## Topic Map · 第二章 嵌入式技术（9 分）
 
 ### 0201 嵌入式系统概述（★）#embedded
@@ -76,12 +80,55 @@ tags: [ruankao, moc]
 - [[嵌入式数据库分类与特点]] — 四特点、MMDB/FDB/NDB 对比、NDB 三组成
 - 练习：[[练习题-嵌入式数据库]]
 
+## Topic Map · 第三章 计算机网络（9 分）
+
+### 0301 计算机网络技术概述（★，概念1+5G 1+云2）#network
+- [[网络指标与5G云计算]] — 时延四组成、五拓扑、5G 双特征、云三服务四部署
+- 练习：[[练习题-计算机网络技术概述]]
+
+### 0302 组网技术（★，交换 2 分）#network
+- [[交换技术与组网]] — 交换技术、拓扑、以太网标准、传输介质
+- 练习：[[练习题-组网技术]]
+
+### 0303 TCP/IP 协议簇（★★★，3 分）#network #tcpip
+- [[IP-TCP-UDP]] — IP 分类/无分类编址/IPv6 过渡、TCP vs UDP
+- [[DHCP与DNS]] — DHCP 流程、DNS 递归/迭代、PTR、resolv.conf 四关键字
+- 练习：[[练习题-TCP_IP协议簇]]
+
+### 0304 网络规划与设计（★）#network
+- [[网络冗余设计与布线]] — 备用路径五考虑、负载分担/均衡、策略路由、PDS
+- 练习：[[练习题-网络规划与设计]]
+
+## Topic Map · 第四章 数据库系统（上午三计算 + 案例 25 分，加量章）
+
+### 0401 数据库概述与设计阶段（了解级，讲义仅提要）#database
+- [[数据库体系结构与设计阶段]] — 集中式/分布式、六阶段、E-R、逻辑设计
+- 练习：[[练习题-数据库概述与设计阶段]]
+
+### 0402 关系代数（掌握，上午必考）#database
+- [[关系代数运算]] — 五基本运算、连接/除、例题全解
+- 练习：[[练习题-关系代数]]
+
+### 0403 规范化理论（掌握，上午+案例双考）#database
+- [[函数依赖与范式]] — FD/候选码/1NF-BCNF/分解，例题全解
+- 练习：[[练习题-规范化理论]]
+
+### 0404 数据控制 #database
+- [[安全完整性并发与恢复]] — ACID/封锁协议/故障四分/Redo-Undo/2PC
+- 练习：[[练习题-数据控制]]
+
+### 0405 数据库设计案例（案例 25 分/年）#database #case
+- [[案例解题方法]] — E-R/规范化/缓存三题型解法模板
+- 练习：[[练习题-数据库设计案例]]
+
 ## 多源源构成表
 
 | 章 | 骨架 | 补肉 | 习题补充 | 缺口 |
 |---|---|---|---|---|
 | 第一章 | 讲义 JSON（ai-doc-parse） | —（单源） | — | 无 |
-| 第二章 | 讲义视觉抽取（source/ch02/讲义_嵌入式技术.json） | 一本通 p45-53/p17/p24、官方 §16.2.3 | 32h 第2小时 p13-19 | AI芯片无旁证；一本通无嵌入式数据库 |
+| 第二章 | 讲义视觉抽取（artifacts/ch02/讲义_嵌入式技术.json） | 一本通 p45-53/p17/p24、官方 §16.2.3 | 32h 第2小时 p13-19 | AI芯片无旁证；一本通无嵌入式数据库 |
+| 第三章 | 讲义视觉抽取（artifacts/ch03/讲义_计算机网络.json，两PPT拼接） | 一本通 p76-90、官方 §17/§11.6.1/§2.5 | 32h 第3小时 p20-27 | 一本通 p75 为数据库尾部（留第四章） |
+| 第四章 | 讲义8（选择题骨架）+ 讲义7案例特训（案例题库） | 官方 §6 全文、一本通五 p54-75、32h 第8小时全量 | 案例特训历年真题 5 道 | 讲义正文缺了解级主节（0401 补肉为主） |
 
 ## 页码约定
 
@@ -99,7 +146,7 @@ tags: [ruankao, moc]
 
 ## Tag Index（规则：领域 tag + 考点 tag + 类型 tag 共附）
 
-- 领域：`#computer-system` `#os` `#process` `#memory` `#disk` `#file-system` `#performance` `#embedded` `#hardware` `#rtos` `#database`
+- 领域：`#computer-system` `#os` `#process` `#memory` `#disk` `#file-system` `#performance` `#embedded` `#hardware` `#rtos` `#database` `#network` `#tcpip` `#case`
 - 考点：`#cisc-risc` `#locality` `#io-control` `#pv-operation` `#precedence-graph` `#deadlock` `#banker` `#paging` `#segmentation` `#disk-scheduling` `#index-file` `#bitmap` `#amdahl` `#benchmark`
 - 类型：`#concept`（概念笔记）`#practice`（练习题）`#quick-ref` `#exam-trap` `#moc`
 
