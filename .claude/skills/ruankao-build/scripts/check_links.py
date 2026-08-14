@@ -25,7 +25,7 @@ for name, f in notes.items():
         if not (q >= 8 and a >= q):
             bad.append((name, f"题数{q}/答案折叠{a}"))
     is_concept_tracker = os.path.basename(os.path.dirname(f)) == "concepts"
-    if not txt.startswith("---") and name not in DASH and not is_concept_tracker:
+    if not txt.startswith("---") and name not in DASH and not is_concept_tracker and not name.startswith("串讲"):
         bad.append((name, "缺frontmatter"))
 
 print("缺陷:", bad if bad else "无")

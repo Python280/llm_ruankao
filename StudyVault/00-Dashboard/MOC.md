@@ -121,6 +121,33 @@ tags: [ruankao, moc]
 - [[案例解题方法]] — E-R/规范化/缓存三题型解法模板
 - 练习：[[练习题-数据库设计案例]]
 
+## Topic Map · 第五章 系统工程与信息系统基础
+
+### 0501 系统工程（★）#se
+- [[系统工程方法与生命周期]] — 霍尔三维/切克兰德/WSR/MBSE/生命周期七阶段
+- 练习：[[练习题-系统工程]]
+
+### 0502 生命周期与开发方法（★+★★）#is
+- [[生命周期与开发方法]] — 四阶段/诺兰六阶段/四方法对比
+- 练习：[[练习题-生命周期与开发方法]]
+
+### 0503 信息系统的分类（★★★）#is
+- [[五类信息系统]] — TPS/MIS/DSS/ES/OAS 对比
+- 练习：[[练习题-信息系统的分类]]
+
+### 0504 政府信息化与电子政务（★★）#is
+- [[电子政务]] — 五类模式 G2G/G2B/G2C/C2G/G2E
+- 练习：[[练习题-电子政务]]
+
+### 0505 企业信息化与电子商务（★★）#is
+- [[企业信息化与战略规划]] — CSF/SST/BSP、需求三层次
+- [[综合信息系统与电子商务]] — ERP/CRM/SCM/BI、电商类型
+- 练习：[[练习题-企业信息化与电子商务]]
+
+### 0506 数字化转型与智能制造（★★）#is
+- [[数字化转型与智能制造]] — 五阶段/智能制造三轴/工业互联网
+- 练习：[[练习题-数字化转型与智能制造]]
+
 ## 多源源构成表
 
 | 章 | 骨架 | 补肉 | 习题补充 | 缺口 |
@@ -129,6 +156,7 @@ tags: [ruankao, moc]
 | 第二章 | 讲义视觉抽取（artifacts/ch02/讲义_嵌入式技术.json） | 一本通 p45-53/p17/p24、官方 §16.2.3 | 32h 第2小时 p13-19 | AI芯片无旁证；一本通无嵌入式数据库 |
 | 第三章 | 讲义视觉抽取（artifacts/ch03/讲义_计算机网络.json，两PPT拼接） | 一本通 p76-90、官方 §17/§11.6.1/§2.5 | 32h 第3小时 p20-27 | 一本通 p75 为数据库尾部（留第四章） |
 | 第四章 | 讲义8（选择题骨架）+ 讲义7案例特训（案例题库） | 官方 §6 全文、一本通五 p54-75、32h 第8小时全量 | 案例特训历年真题 5 道 | 讲义正文缺了解级主节（0401 补肉为主） |
+| 第五章 | 讲义9 视觉抽取（55 页） | 官方 §2.8+§3.1-3.8、32h 第6/4小时 | 32h 第6小时 3 题+第4小时 2 题 | 一本通无此章（全章缺口） |
 
 ## 页码约定
 
@@ -146,7 +174,7 @@ tags: [ruankao, moc]
 
 ## Tag Index（规则：领域 tag + 考点 tag + 类型 tag 共附）
 
-- 领域：`#computer-system` `#os` `#process` `#memory` `#disk` `#file-system` `#performance` `#embedded` `#hardware` `#rtos` `#database` `#network` `#tcpip` `#case`
+- 领域：`#computer-system` `#os` `#process` `#memory` `#disk` `#file-system` `#performance` `#embedded` `#hardware` `#rtos` `#database` `#network` `#tcpip` `#case` `#se` `#is`
 - 考点：`#cisc-risc` `#locality` `#io-control` `#pv-operation` `#precedence-graph` `#deadlock` `#banker` `#paging` `#segmentation` `#disk-scheduling` `#index-file` `#bitmap` `#amdahl` `#benchmark`
 - 类型：`#concept`（概念笔记）`#practice`（练习题）`#quick-ref` `#exam-trap` `#moc`
 
